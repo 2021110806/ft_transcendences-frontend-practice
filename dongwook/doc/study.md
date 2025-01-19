@@ -1,5 +1,6 @@
 // main.js
 
+``` javascript
 /*
     함수 router
     - 현재 url의 hash값(#home, #login...)을 읽어서 어떤 화면을 보여줄지 결정한다.
@@ -38,7 +39,7 @@ function router() {
             즉시 실행되는 형식 즉 module의 function의 결과값을 인자로 넘기기 때문에 오류
 
         */
-        import('./login.js')
+        import('../pages/login.js')
           .then(module => { 
             module.renderLoginPage();
           })
@@ -46,7 +47,7 @@ function router() {
         break;
   
       case 'home':
-        import('./home.js')
+        import('../pages/home.js')
           .then(module => {
             module.renderHomePage();
           })
@@ -79,4 +80,4 @@ function router() {
   
   // 페이지 로드 시 한 번 호출
   window.addEventListener('DOMContentLoaded', router);
-  
+  ```
