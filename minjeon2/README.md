@@ -1,0 +1,1 @@
+serrver.js가 있는 디렉토리에서 npm install 후 npm start
