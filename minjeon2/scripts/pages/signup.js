@@ -1,8 +1,9 @@
 import { createElement } from "../utils.js";
 
 export function SignupPage() {
-    const container = createElement("div", "container");
-    const heading = createElement("h1", "", "Sign Up");
+    const container = createElement("div", "signup-page");
+    const formContainer = createElement("div", "signup-container");
+    const heading = createElement("h1", "signup-heading", "Sign Up");
     const form = createElement("form", "mt-3");
     form.innerHTML = `
         <div class="mb-3">
@@ -17,14 +18,15 @@ export function SignupPage() {
             <label for="password" class="form-label">Password</label>
             <input type="password" class="form-control" id="password" placeholder="Enter your password">
         </div>
-        <button type="submit" class="btn btn-primary">Register</button>
+        <button type="submit" class="btn signup-btn">Register</button>
     `;
     const backLink = createElement("a", "btn btn-link mt-3", "Go Back");
     backLink.href = "/";
 
-    container.appendChild(heading);
-    container.appendChild(form);
-    container.appendChild(backLink);
+    formContainer.appendChild(heading);
+    formContainer.appendChild(form);
+    formContainer.appendChild(backLink);
+    container.appendChild(formContainer);
 
     return container;
 }
