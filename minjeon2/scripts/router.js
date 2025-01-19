@@ -1,11 +1,9 @@
 import { renderPage } from "./utils.js";
-import { HomePage } from "./pages/home.js";
 import { LoginPage } from "./pages/login.js";
 import { SignupPage } from "./pages/signup.js";
 
 const routes = {
-    "/": HomePage,
-    "/login": LoginPage,
+    "/": LoginPage,
     "/signup": SignupPage,
 };
 
@@ -14,7 +12,7 @@ export function router() {
 
     const render = () => {
         const path = window.location.pathname;
-        const PageComponent = routes[path] || HomePage;
+        const PageComponent = routes[path] || LoginPage;
         renderPage(appDiv, PageComponent());
     };
 
