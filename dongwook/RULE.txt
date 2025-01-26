@@ -1,0 +1,238 @@
+``` RULE.txt
+1. 오로지 바닐라 js와 부트스트랩만 이용 가능
+2. SPA (싱글 페이지 애플리케이션) 방식을 사용해야 함
+3. 현재 디렉토리 구조
+```
+
+``` directory sturctrue
+RULE.txt
+index.html
+node_modules
+package-lock.json
+package.json
+scripts
+server.js
+static
+
+./scripts:
+components
+pages
+router.js
+style
+
+./scripts/components:
+navbar.js
+
+./scripts/pages:
+authorization
+game
+profile
+
+./scripts/pages/authorization:
+login.js
+signup.js
+
+./scripts/pages/game:
+gameOption.js
+gamePlay.js
+tournamant.js
+
+./scripts/pages/profile:
+profile.js
+
+./scripts/style:
+main.css
+navbar.css
+
+./static:
+Logo.png
+
+```
+
+``` gameOption.js
+function renderGameOption() {
+  const appDiv = document.getElementById("app");
+  appDiv.innerHTML = `
+    <div class="container py-5">
+      <!-- Header Section -->
+      <div class="d-flex justify-content-between align-items-center mb-4">
+        <h1 class="fw-bold">Game Option</h1>
+        <button class="btn btn-outline-secondary">
+          <i class="bi bi-arrow-left"></i> Back
+        </button>
+      </div>
+
+      <!-- Players Section -->
+      <div class="card mb-4">
+        <div class="card-body">
+          <h5 class="card-title">Players</h5>
+          <div class="btn-group w-100" role="group">
+            <button type="button" class="btn btn-primary active">2</button>
+            <button type="button" class="btn btn-outline-primary">4</button>
+            <button type="button" class="btn btn-outline-primary">8</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Paddle Size Section -->
+      <div class="card mb-4">
+        <div class="card-body">
+          <h5 class="card-title">Paddle Size</h5>
+          <div class="btn-group w-100" role="group">
+            <button type="button" class="btn btn-primary active">x1</button>
+            <button type="button" class="btn btn-outline-primary">x1.25</button>
+            <button type="button" class="btn btn-outline-primary">x1.5</button>
+            <button type="button" class="btn btn-outline-primary">x1.75</button>
+            <button type="button" class="btn btn-outline-primary">x2.0</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Ball Speed Section -->
+      <div class="card mb-4">
+        <div class="card-body">
+          <h5 class="card-title">Ball Speed</h5>
+          <div class="btn-group w-100" role="group">
+            <button type="button" class="btn btn-primary active">x1</button>
+            <button type="button" class="btn btn-outline-primary">x1.25</button>
+            <button type="button" class="btn btn-outline-primary">x1.5</button>
+            <button type="button" class="btn btn-outline-primary">x1.75</button>
+            <button type="button" class="btn btn-outline-primary">x2.0</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Obstacles Section -->
+      <div class="card mb-4">
+        <div class="card-body">
+          <h5 class="card-title">Obstacles Number</h5>
+          <div class="btn-group w-100" role="group">
+            <button type="button" class="btn btn-primary active">1</button>
+            <button type="button" class="btn btn-outline-primary">2</button>
+            <button type="button" class="btn btn-outline-primary">3</button>
+            <button type="button" class="btn btn-outline-primary">4</button>
+            <button type="button" class="btn btn-outline-primary">5</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Background Theme Section -->
+      <div class="card mb-4">
+        <div class="card-body">
+          <h5 class="card-title">Background Theme</h5>
+          <div class="row">
+            ${[...Array(5)].map(
+              (_, i) => `
+              <div class="col-6 col-md-2 mb-3">
+                <div class="card bg-light">
+                  <img src="../static/placeholder.png" class="card-img-top rounded" alt="Theme ${i + 1}">
+                  <div class="card-body text-center">
+                    <small class="text-muted">Placeholder ${i + 1}</small>
+                  </div>
+                </div>
+              </div>
+            `
+            ).join("")}
+          </div>
+        </div>
+      </div>
+
+      <!-- Next Button -->
+      <div class="text-center">
+        <button class="btn btn-success w-50">Next</button>
+      </div>
+    </div>
+  `;
+}
+
+// Render the UI
+renderGameOption();
+
+```
+
+``` index.html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game App</title>
+  
+  <!-- Bootstrap CSS -->
+  <link
+  href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+  rel="stylesheet"
+  crossorigin="anonymous"
+  >
+  
+  <!-- CSS 파일 연결 -->
+  <link rel="stylesheet" href="./scripts/style/main.css">
+  <link rel="stylesheet" href="./scripts/style/navbar.css">
+</head>
+
+<body>
+  
+  <div id="navbar"></div> <!-- 네비게이션 바 영역 -->
+
+  <div id="app"></div> <!-- 콘텐츠가 로드될 영역 -->
+
+  <!-- JS 파일 연결 -->
+  <script src="./scripts/components/navbar.js"></script>
+  <script src="./scripts/pages/game/gameOption.js"></script>
+  <script src="./scripts/router.js"></script>
+  
+  <!-- Bootstrap JS -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    crossorigin="anonymous"
+  ></script>
+</body>
+</html>
+
+```
+
+``` router.js
+// 각 페이지 컴포넌트 정의
+const pages = {
+  login: () => `
+    <h1>Login Page</h1>
+    <p>Welcome to the login page.</p>
+  `,
+  signup: () => `
+    <h1>Signup Page</h1>
+    <p>Sign up to create an account.</p>
+  `,
+  gameplay: () => { renderGameOption(); return '';},
+  game: () => `
+    <h1>Game Page</h1>
+    <p>Start your game journey!</p>
+  `,
+  profile: () => `
+    <h1>Profile Page</h1>
+    <p>Manage your profile information.</p>
+  `,
+  default: () => `
+    <h1>Welcome</h1>
+    <p>Select a page from the menu.</p>
+  `
+};
+
+// router.js: 12번째 줄 (router 함수 내부)
+function router() {
+  const hash = window.location.hash.slice(1) || "gameplay"; // 현재 해시값 확인
+  console.log("Current hash:", hash);
+
+  const app = document.getElementById('app');
+
+  const renderPage = pages[hash] || pages.default;
+  console.log("RenderPage function:", renderPage); // 어떤 페이지를 렌더링하려고 하는지 확인
+
+  app.innerHTML = renderPage();
+  console.log("App innerHTML updated:", app.innerHTML); // 실제로 렌더링된 HTML 확인
+}
+
+// 초기 라우팅 호출
+router();
+
+```
