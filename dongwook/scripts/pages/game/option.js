@@ -85,11 +85,20 @@ function getGameOptionPage() {
       </div>
 
       <!-- Next Button -->
-      <div class="text-center">
-        <button class="btn btn-success w-50">Next</button>
+      <div class="mt-3 text-start">
+        <button id="nextBtn" class="btn btn-success w-50">Next</button>
       </div>
     </div>
   `;
 }
 
-window.getGameOptionPage = getGameOptionPage;
+function setupGameOptionEvents() {
+  const nextBtn = document.getElementById("nextBtn");
+  if (nextBtn) {
+    nextBtn.addEventListener("click", () => {
+      window.navigateTo("/game/players");
+    })
+  }
+}
+
+export { getGameOptionPage, setupGameOptionEvents};

@@ -1,0 +1,2160 @@
+```
+index.html
+output.txt
+package-lock.json
+package.json
+q.md
+r.sh
+scripts
+server.js
+static
+
+accepts
+array-flatten
+body-parser
+bytes
+call-bind-apply-helpers
+call-bound
+content-disposition
+content-type
+cookie
+cookie-signature
+debug
+depd
+destroy
+dunder-proto
+ee-first
+encodeurl
+es-define-property
+es-errors
+es-object-atoms
+escape-html
+etag
+express
+finalhandler
+forwarded
+fresh
+function-bind
+get-intrinsic
+get-proto
+gopd
+has-symbols
+hasown
+http-errors
+iconv-lite
+inherits
+ipaddr.js
+math-intrinsics
+media-typer
+merge-descriptors
+methods
+mime
+mime-db
+mime-types
+ms
+negotiator
+object-inspect
+on-finished
+parseurl
+path-to-regexp
+proxy-addr
+qs
+range-parser
+raw-body
+safe-buffer
+safer-buffer
+send
+serve-static
+setprototypeof
+side-channel
+side-channel-list
+side-channel-map
+side-channel-weakmap
+statuses
+toidentifier
+type-is
+unpipe
+utils-merge
+vary
+
+HISTORY.md
+LICENSE
+README.md
+index.js
+package.json
+
+LICENSE
+README.md
+array-flatten.js
+package.json
+
+HISTORY.md
+LICENSE
+README.md
+SECURITY.md
+index.js
+lib
+package.json
+
+read.js
+types
+
+json.js
+raw.js
+text.js
+urlencoded.js
+
+History.md
+LICENSE
+Readme.md
+index.js
+package.json
+
+CHANGELOG.md
+LICENSE
+README.md
+actualApply.d.ts
+actualApply.js
+applyBind.d.ts
+applyBind.js
+functionApply.d.ts
+functionApply.js
+functionCall.d.ts
+functionCall.js
+index.d.ts
+index.js
+package.json
+reflectApply.d.ts
+reflectApply.js
+test
+tsconfig.json
+
+index.js
+
+CHANGELOG.md
+LICENSE
+README.md
+index.d.ts
+index.js
+package.json
+test
+tsconfig.json
+
+index.js
+
+HISTORY.md
+LICENSE
+README.md
+index.js
+package.json
+
+HISTORY.md
+LICENSE
+README.md
+index.js
+package.json
+
+LICENSE
+README.md
+SECURITY.md
+index.js
+package.json
+
+History.md
+Readme.md
+index.js
+package.json
+
+CHANGELOG.md
+LICENSE
+Makefile
+README.md
+component.json
+karma.conf.js
+node.js
+package.json
+src
+
+browser.js
+debug.js
+index.js
+inspector-log.js
+node.js
+
+History.md
+LICENSE
+Readme.md
+index.js
+lib
+package.json
+
+browser
+
+index.js
+
+LICENSE
+README.md
+index.js
+package.json
+
+CHANGELOG.md
+LICENSE
+README.md
+get.d.ts
+get.js
+package.json
+set.d.ts
+set.js
+test
+tsconfig.json
+
+get.js
+index.js
+set.js
+
+LICENSE
+README.md
+index.js
+package.json
+
+LICENSE
+README.md
+index.js
+package.json
+
+CHANGELOG.md
+LICENSE
+README.md
+index.d.ts
+index.js
+package.json
+test
+tsconfig.json
+
+index.js
+
+CHANGELOG.md
+LICENSE
+README.md
+eval.d.ts
+eval.js
+index.d.ts
+index.js
+package.json
+range.d.ts
+range.js
+ref.d.ts
+ref.js
+syntax.d.ts
+syntax.js
+test
+tsconfig.json
+type.d.ts
+type.js
+uri.d.ts
+uri.js
+
+index.js
+
+CHANGELOG.md
+LICENSE
+README.md
+RequireObjectCoercible.d.ts
+RequireObjectCoercible.js
+ToObject.d.ts
+ToObject.js
+index.d.ts
+index.js
+isObject.d.ts
+isObject.js
+package.json
+test
+tsconfig.json
+
+index.js
+
+LICENSE
+Readme.md
+index.js
+package.json
+
+HISTORY.md
+LICENSE
+README.md
+index.js
+package.json
+
+History.md
+LICENSE
+Readme.md
+index.js
+lib
+package.json
+
+application.js
+express.js
+middleware
+request.js
+response.js
+router
+utils.js
+view.js
+
+init.js
+query.js
+
+index.js
+layer.js
+route.js
+
+HISTORY.md
+LICENSE
+README.md
+SECURITY.md
+index.js
+package.json
+
+HISTORY.md
+LICENSE
+README.md
+index.js
+package.json
+
+HISTORY.md
+LICENSE
+README.md
+index.js
+package.json
+
+CHANGELOG.md
+LICENSE
+README.md
+implementation.js
+index.js
+package.json
+test
+
+index.js
+
+CHANGELOG.md
+LICENSE
+README.md
+index.js
+package.json
+test
+
+GetIntrinsic.js
+
+CHANGELOG.md
+LICENSE
+Object.getPrototypeOf.d.ts
+Object.getPrototypeOf.js
+README.md
+Reflect.getPrototypeOf.d.ts
+Reflect.getPrototypeOf.js
+index.d.ts
+index.js
+package.json
+test
+tsconfig.json
+
+index.js
+
+CHANGELOG.md
+LICENSE
+README.md
+gOPD.d.ts
+gOPD.js
+index.d.ts
+index.js
+package.json
+test
+tsconfig.json
+
+index.js
+
+CHANGELOG.md
+LICENSE
+README.md
+index.d.ts
+index.js
+package.json
+shams.d.ts
+shams.js
+test
+tsconfig.json
+
+index.js
+shams
+tests.js
+
+core-js.js
+get-own-property-symbols.js
+
+CHANGELOG.md
+LICENSE
+README.md
+index.d.ts
+index.js
+package.json
+tsconfig.json
+
+HISTORY.md
+LICENSE
+README.md
+index.js
+package.json
+
+Changelog.md
+LICENSE
+README.md
+encodings
+lib
+package.json
+
+dbcs-codec.js
+dbcs-data.js
+index.js
+internal.js
+sbcs-codec.js
+sbcs-data-generated.js
+sbcs-data.js
+tables
+utf16.js
+utf7.js
+
+big5-added.json
+cp936.json
+cp949.json
+cp950.json
+eucjp.json
+gb18030-ranges.json
+gbk-added.json
+shiftjis.json
+
+bom-handling.js
+extend-node.js
+index.d.ts
+index.js
+streams.js
+
+LICENSE
+README.md
+inherits.js
+inherits_browser.js
+package.json
+
+LICENSE
+README.md
+ipaddr.min.js
+lib
+package.json
+
+ipaddr.js
+ipaddr.js.d.ts
+
+CHANGELOG.md
+LICENSE
+README.md
+abs.d.ts
+abs.js
+constants
+floor.d.ts
+floor.js
+isFinite.d.ts
+isFinite.js
+isInteger.d.ts
+isInteger.js
+isNaN.d.ts
+isNaN.js
+isNegativeZero.d.ts
+isNegativeZero.js
+max.d.ts
+max.js
+min.d.ts
+min.js
+mod.d.ts
+mod.js
+package.json
+pow.d.ts
+pow.js
+round.d.ts
+round.js
+sign.d.ts
+sign.js
+test
+tsconfig.json
+
+maxArrayLength.d.ts
+maxArrayLength.js
+maxSafeInteger.d.ts
+maxSafeInteger.js
+maxValue.d.ts
+maxValue.js
+
+index.js
+
+HISTORY.md
+LICENSE
+README.md
+index.js
+package.json
+
+HISTORY.md
+LICENSE
+README.md
+index.js
+package.json
+
+HISTORY.md
+LICENSE
+README.md
+index.js
+package.json
+
+CHANGELOG.md
+LICENSE
+README.md
+cli.js
+mime.js
+package.json
+src
+types.json
+
+build.js
+test.js
+
+HISTORY.md
+LICENSE
+README.md
+db.json
+index.js
+package.json
+
+HISTORY.md
+LICENSE
+README.md
+index.js
+package.json
+
+index.js
+license.md
+package.json
+readme.md
+
+HISTORY.md
+LICENSE
+README.md
+index.js
+lib
+package.json
+
+charset.js
+encoding.js
+language.js
+mediaType.js
+
+CHANGELOG.md
+LICENSE
+example
+index.js
+package-support.json
+package.json
+readme.markdown
+test
+test-core-js.js
+util.inspect.js
+
+all.js
+circular.js
+fn.js
+inspect.js
+
+bigint.js
+browser
+circular.js
+deep.js
+element.js
+err.js
+fakes.js
+fn.js
+global.js
+has.js
+holes.js
+indent-option.js
+inspect.js
+lowbyte.js
+number.js
+quoteStyle.js
+toStringTag.js
+undef.js
+values.js
+
+dom.js
+
+HISTORY.md
+LICENSE
+README.md
+index.js
+package.json
+
+HISTORY.md
+LICENSE
+README.md
+index.js
+package.json
+
+LICENSE
+Readme.md
+index.js
+package.json
+
+HISTORY.md
+LICENSE
+README.md
+index.js
+package.json
+
+CHANGELOG.md
+LICENSE.md
+README.md
+dist
+lib
+package.json
+test
+
+qs.js
+
+formats.js
+index.js
+parse.js
+stringify.js
+utils.js
+
+empty-keys-cases.js
+parse.js
+stringify.js
+utils.js
+
+HISTORY.md
+LICENSE
+README.md
+index.js
+package.json
+
+HISTORY.md
+LICENSE
+README.md
+SECURITY.md
+index.d.ts
+index.js
+package.json
+
+LICENSE
+README.md
+index.d.ts
+index.js
+package.json
+
+LICENSE
+Porting-Buffer.md
+Readme.md
+dangerous.js
+package.json
+safer.js
+tests.js
+
+HISTORY.md
+LICENSE
+README.md
+SECURITY.md
+index.js
+package.json
+
+encodeurl
+ms
+
+HISTORY.md
+LICENSE
+README.md
+index.js
+package.json
+
+index.js
+license.md
+package.json
+readme.md
+
+HISTORY.md
+LICENSE
+README.md
+index.js
+package.json
+
+LICENSE
+README.md
+index.d.ts
+index.js
+package.json
+test
+
+index.js
+
+CHANGELOG.md
+LICENSE
+README.md
+index.d.ts
+index.js
+package.json
+test
+tsconfig.json
+
+index.js
+
+CHANGELOG.md
+LICENSE
+README.md
+index.d.ts
+index.js
+list.d.ts
+package.json
+test
+tsconfig.json
+
+index.js
+
+CHANGELOG.md
+LICENSE
+README.md
+index.d.ts
+index.js
+package.json
+test
+tsconfig.json
+
+index.js
+
+CHANGELOG.md
+LICENSE
+README.md
+index.d.ts
+index.js
+package.json
+test
+tsconfig.json
+
+index.js
+
+HISTORY.md
+LICENSE
+README.md
+codes.json
+index.js
+package.json
+
+HISTORY.md
+LICENSE
+README.md
+index.js
+package.json
+
+HISTORY.md
+LICENSE
+README.md
+index.js
+package.json
+
+HISTORY.md
+LICENSE
+README.md
+index.js
+package.json
+
+LICENSE
+README.md
+index.js
+package.json
+
+HISTORY.md
+LICENSE
+README.md
+index.js
+package.json
+
+./scripts:
+components
+pages
+router.js
+style
+
+./scripts/components:
+navbar.js
+
+./scripts/pages:
+authorization
+game
+profile
+
+./scripts/pages/authorization:
+login.js
+signup.js
+
+./scripts/pages/game:
+option.js
+players.js
+tournamant.js
+
+./scripts/pages/profile:
+profile.js
+
+./scripts/style:
+main.css
+navbar.css
+
+./static:
+Logo.png
+placeholder.png
+```
+
+```
+./index.html
+
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Game App</title>
+
+  <!-- Bootstrap CSS -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    crossorigin="anonymous"
+  >
+
+  <!-- CSS 파일 연결: 절대경로 /scripts/... -->
+  <link rel="stylesheet" href="/scripts/style/main.css">
+  <link rel="stylesheet" href="/scripts/style/navbar.css">
+
+</head>
+<body>
+  <!-- 네비게이션 바 -->
+  <div id="navbar"></div>
+
+  <!-- 각 페이지 내용이 렌더링될 영역 -->
+  <div id="app"></div>
+
+  <!-- JS 로드 경로도 절대경로로 -->
+  <script src="/scripts/components/navbar.js"></script>
+  <script type="module" src="/scripts/router.js"></script>
+
+  <!-- Bootstrap JS -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    crossorigin="anonymous"
+  ></script>
+</body>
+</html>
+
+```
+
+```
+./.DS_Store
+
+   Bud1            %                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 @      �                                        @      �                                          @      �                                          @                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   E   %                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       DSDB                             `          �                                           @      �                                          @      �                                          @                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+```
+
+```
+./server.js
+
+// server.js
+const express = require("express");
+const path = require("path");
+
+const app = express();
+
+// '/static' 경로 → 실제 "./static" 폴더
+app.use("/static", express.static(path.join(__dirname, "static")));
+
+// '/scripts' 경로 → 실제 "./scripts" 폴더
+app.use("/scripts", express.static(path.join(__dirname, "scripts")));
+
+// 나머지 경로는 전부 index.html로 (SPA 라우팅)
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname, "index.html"));
+});
+
+const PORT = 3000;
+app.listen(PORT, () => {
+  console.log(`✅ Server is running on http://localhost:${PORT}`);
+});
+
+```
+
+```
+./q.md
+
+.render() 함수 머임?
+```
+
+```
+./package-lock.json
+
+{
+    "name": "router-example",
+    "version": "1.0.0",
+    "lockfileVersion": 3,
+    "requires": true,
+    "packages": {
+        "": {
+            "name": "router-example",
+            "version": "1.0.0",
+            "dependencies": {
+                "express": "^4.18.2"
+            }
+        },
+        "node_modules/accepts": {
+            "version": "1.3.8",
+            "resolved": "https://registry.npmjs.org/accepts/-/accepts-1.3.8.tgz",
+            "integrity": "sha512-PYAthTa2m2VKxuvSD3DPC/Gy+U+sOA1LAuT8mkmRuvw+NACSaeXEQ+NHcVF7rONl6qcaxV3Uuemwawk+7+SJLw==",
+            "license": "MIT",
+            "dependencies": {
+                "mime-types": "~2.1.34",
+                "negotiator": "0.6.3"
+            },
+            "engines": {
+                "node": ">= 0.6"
+            }
+        },
+        "node_modules/array-flatten": {
+            "version": "1.1.1",
+            "resolved": "https://registry.npmjs.org/array-flatten/-/array-flatten-1.1.1.tgz",
+            "integrity": "sha512-PCVAQswWemu6UdxsDFFX/+gVeYqKAod3D3UVm91jHwynguOwAvYPhx8nNlM++NqRcK6CxxpUafjmhIdKiHibqg==",
+            "license": "MIT"
+        },
+        "node_modules/body-parser": {
+            "version": "1.20.3",
+            "resolved": "https://registry.npmjs.org/body-parser/-/body-parser-1.20.3.tgz",
+            "integrity": "sha512-7rAxByjUMqQ3/bHJy7D6OGXvx/MMc4IqBn/X0fcM1QUcAItpZrBEYhWGem+tzXH90c+G01ypMcYJBO9Y30203g==",
+            "license": "MIT",
+            "dependencies": {
+                "bytes": "3.1.2",
+                "content-type": "~1.0.5",
+                "debug": "2.6.9",
+                "depd": "2.0.0",
+                "destroy": "1.2.0",
+                "http-errors": "2.0.0",
+                "iconv-lite": "0.4.24",
+                "on-finished": "2.4.1",
+                "qs": "6.13.0",
+                "raw-body": "2.5.2",
+                "type-is": "~1.6.18",
+                "unpipe": "1.0.0"
+            },
+            "engines": {
+                "node": ">= 0.8",
+                "npm": "1.2.8000 || >= 1.4.16"
+            }
+        },
+        "node_modules/bytes": {
+            "version": "3.1.2",
+            "resolved": "https://registry.npmjs.org/bytes/-/bytes-3.1.2.tgz",
+            "integrity": "sha512-/Nf7TyzTx6S3yRJObOAV7956r8cr2+Oj8AC5dt8wSP3BQAoeX58NoHyCU8P8zGkNXStjTSi6fzO6F0pBdcYbEg==",
+            "license": "MIT",
+            "engines": {
+                "node": ">= 0.8"
+            }
+        },
+        "node_modules/call-bind-apply-helpers": {
+            "version": "1.0.1",
+            "resolved": "https://registry.npmjs.org/call-bind-apply-helpers/-/call-bind-apply-helpers-1.0.1.tgz",
+            "integrity": "sha512-BhYE+WDaywFg2TBWYNXAE+8B1ATnThNBqXHP5nQu0jWJdVvY2hvkpyB3qOmtmDePiS5/BDQ8wASEWGMWRG148g==",
+            "license": "MIT",
+            "dependencies": {
+                "es-errors": "^1.3.0",
+                "function-bind": "^1.1.2"
+            },
+            "engines": {
+                "node": ">= 0.4"
+            }
+        },
+        "node_modules/call-bound": {
+            "version": "1.0.3",
+            "resolved": "https://registry.npmjs.org/call-bound/-/call-bound-1.0.3.tgz",
+            "integrity": "sha512-YTd+6wGlNlPxSuri7Y6X8tY2dmm12UMH66RpKMhiX6rsk5wXXnYgbUcOt8kiS31/AjfoTOvCsE+w8nZQLQnzHA==",
+            "license": "MIT",
+            "dependencies": {
+                "call-bind-apply-helpers": "^1.0.1",
+                "get-intrinsic": "^1.2.6"
+            },
+            "engines": {
+                "node": ">= 0.4"
+            },
+            "funding": {
+                "url": "https://github.com/sponsors/ljharb"
+            }
+        },
+        "node_modules/content-disposition": {
+            "version": "0.5.4",
+            "resolved": "https://registry.npmjs.org/content-disposition/-/content-disposition-0.5.4.tgz",
+            "integrity": "sha512-FveZTNuGw04cxlAiWbzi6zTAL/lhehaWbTtgluJh4/E95DqMwTmha3KZN1aAWA8cFIhHzMZUvLevkw5Rqk+tSQ==",
+            "license": "MIT",
+            "dependencies": {
+                "safe-buffer": "5.2.1"
+            },
+            "engines": {
+                "node": ">= 0.6"
+            }
+        },
+        "node_modules/content-type": {
+            "version": "1.0.5",
+            "resolved": "https://registry.npmjs.org/content-type/-/content-type-1.0.5.tgz",
+            "integrity": "sha512-nTjqfcBFEipKdXCv4YDQWCfmcLZKm81ldF0pAopTvyrFGVbcR6P/VAAd5G7N+0tTr8QqiU0tFadD6FK4NtJwOA==",
+            "license": "MIT",
+            "engines": {
+                "node": ">= 0.6"
+            }
+        },
+        "node_modules/cookie": {
+            "version": "0.7.1",
+            "resolved": "https://registry.npmjs.org/cookie/-/cookie-0.7.1.tgz",
+            "integrity": "sha512-6DnInpx7SJ2AK3+CTUE/ZM0vWTUboZCegxhC2xiIydHR9jNuTAASBrfEpHhiGOZw/nX51bHt6YQl8jsGo4y/0w==",
+            "license": "MIT",
+            "engines": {
+                "node": ">= 0.6"
+            }
+        },
+        "node_modules/cookie-signature": {
+            "version": "1.0.6",
+            "resolved": "https://registry.npmjs.org/cookie-signature/-/cookie-signature-1.0.6.tgz",
+            "integrity": "sha512-QADzlaHc8icV8I7vbaJXJwod9HWYp8uCqf1xa4OfNu1T7JVxQIrUgOWtHdNDtPiywmFbiS12VjotIXLrKM3orQ==",
+            "license": "MIT"
+        },
+        "node_modules/debug": {
+            "version": "2.6.9",
+            "resolved": "https://registry.npmjs.org/debug/-/debug-2.6.9.tgz",
+            "integrity": "sha512-bC7ElrdJaJnPbAP+1EotYvqZsb3ecl5wi6Bfi6BJTUcNowp6cvspg0jXznRTKDjm/E7AdgFBVeAPVMNcKGsHMA==",
+            "license": "MIT",
+            "dependencies": {
+                "ms": "2.0.0"
+            }
+        },
+        "node_modules/depd": {
+            "version": "2.0.0",
+            "resolved": "https://registry.npmjs.org/depd/-/depd-2.0.0.tgz",
+            "integrity": "sha512-g7nH6P6dyDioJogAAGprGpCtVImJhpPk/roCzdb3fIh61/s/nPsfR6onyMwkCAR/OlC3yBC0lESvUoQEAssIrw==",
+            "license": "MIT",
+            "engines": {
+                "node": ">= 0.8"
+            }
+        },
+        "node_modules/destroy": {
+            "version": "1.2.0",
+            "resolved": "https://registry.npmjs.org/destroy/-/destroy-1.2.0.tgz",
+            "integrity": "sha512-2sJGJTaXIIaR1w4iJSNoN0hnMY7Gpc/n8D4qSCJw8QqFWXf7cuAgnEHxBpweaVcPevC2l3KpjYCx3NypQQgaJg==",
+            "license": "MIT",
+            "engines": {
+                "node": ">= 0.8",
+                "npm": "1.2.8000 || >= 1.4.16"
+            }
+        },
+        "node_modules/dunder-proto": {
+            "version": "1.0.1",
+            "resolved": "https://registry.npmjs.org/dunder-proto/-/dunder-proto-1.0.1.tgz",
+            "integrity": "sha512-KIN/nDJBQRcXw0MLVhZE9iQHmG68qAVIBg9CqmUYjmQIhgij9U5MFvrqkUL5FbtyyzZuOeOt0zdeRe4UY7ct+A==",
+            "license": "MIT",
+            "dependencies": {
+                "call-bind-apply-helpers": "^1.0.1",
+                "es-errors": "^1.3.0",
+                "gopd": "^1.2.0"
+            },
+            "engines": {
+                "node": ">= 0.4"
+            }
+        },
+        "node_modules/ee-first": {
+            "version": "1.1.1",
+            "resolved": "https://registry.npmjs.org/ee-first/-/ee-first-1.1.1.tgz",
+            "integrity": "sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==",
+            "license": "MIT"
+        },
+        "node_modules/encodeurl": {
+            "version": "2.0.0",
+            "resolved": "https://registry.npmjs.org/encodeurl/-/encodeurl-2.0.0.tgz",
+            "integrity": "sha512-Q0n9HRi4m6JuGIV1eFlmvJB7ZEVxu93IrMyiMsGC0lrMJMWzRgx6WGquyfQgZVb31vhGgXnfmPNNXmxnOkRBrg==",
+            "license": "MIT",
+            "engines": {
+                "node": ">= 0.8"
+            }
+        },
+        "node_modules/es-define-property": {
+            "version": "1.0.1",
+            "resolved": "https://registry.npmjs.org/es-define-property/-/es-define-property-1.0.1.tgz",
+            "integrity": "sha512-e3nRfgfUZ4rNGL232gUgX06QNyyez04KdjFrF+LTRoOXmrOgFKDg4BCdsjW8EnT69eqdYGmRpJwiPVYNrCaW3g==",
+            "license": "MIT",
+            "engines": {
+                "node": ">= 0.4"
+            }
+        },
+        "node_modules/es-errors": {
+            "version": "1.3.0",
+            "resolved": "https://registry.npmjs.org/es-errors/-/es-errors-1.3.0.tgz",
+            "integrity": "sha512-Zf5H2Kxt2xjTvbJvP2ZWLEICxA6j+hAmMzIlypy4xcBg1vKVnx89Wy0GbS+kf5cwCVFFzdCFh2XSCFNULS6csw==",
+            "license": "MIT",
+            "engines": {
+                "node": ">= 0.4"
+            }
+        },
+        "node_modules/es-object-atoms": {
+            "version": "1.1.1",
+            "resolved": "https://registry.npmjs.org/es-object-atoms/-/es-object-atoms-1.1.1.tgz",
+            "integrity": "sha512-FGgH2h8zKNim9ljj7dankFPcICIK9Cp5bm+c2gQSYePhpaG5+esrLODihIorn+Pe6FGJzWhXQotPv73jTaldXA==",
+            "license": "MIT",
+            "dependencies": {
+                "es-errors": "^1.3.0"
+            },
+            "engines": {
+                "node": ">= 0.4"
+            }
+        },
+        "node_modules/escape-html": {
+            "version": "1.0.3",
+            "resolved": "https://registry.npmjs.org/escape-html/-/escape-html-1.0.3.tgz",
+            "integrity": "sha512-NiSupZ4OeuGwr68lGIeym/ksIZMJodUGOSCZ/FSnTxcrekbvqrgdUxlJOMpijaKZVjAJrWrGs/6Jy8OMuyj9ow==",
+            "license": "MIT"
+        },
+        "node_modules/etag": {
+            "version": "1.8.1",
+            "resolved": "https://registry.npmjs.org/etag/-/etag-1.8.1.tgz",
+            "integrity": "sha512-aIL5Fx7mawVa300al2BnEE4iNvo1qETxLrPI/o05L7z6go7fCw1J6EQmbK4FmJ2AS7kgVF/KEZWufBfdClMcPg==",
+            "license": "MIT",
+            "engines": {
+                "node": ">= 0.6"
+            }
+        },
+        "node_modules/express": {
+            "version": "4.21.2",
+            "resolved": "https://registry.npmjs.org/express/-/express-4.21.2.tgz",
+            "integrity": "sha512-28HqgMZAmih1Czt9ny7qr6ek2qddF4FclbMzwhCREB6OFfH+rXAnuNCwo1/wFvrtbgsQDb4kSbX9de9lFbrXnA==",
+            "license": "MIT",
+            "dependencies": {
+                "accepts": "~1.3.8",
+                "array-flatten": "1.1.1",
+                "body-parser": "1.20.3",
+                "content-disposition": "0.5.4",
+                "content-type": "~1.0.4",
+                "cookie": "0.7.1",
+                "cookie-signature": "1.0.6",
+                "debug": "2.6.9",
+                "depd": "2.0.0",
+                "encodeurl": "~2.0.0",
+                "escape-html": "~1.0.3",
+                "etag": "~1.8.1",
+                "finalhandler": "1.3.1",
+                "fresh": "0.5.2",
+                "http-errors": "2.0.0",
+                "merge-descriptors": "1.0.3",
+                "methods": "~1.1.2",
+                "on-finished": "2.4.1",
+                "parseurl": "~1.3.3",
+                "path-to-regexp": "0.1.12",
+                "proxy-addr": "~2.0.7",
+                "qs": "6.13.0",
+                "range-parser": "~1.2.1",
+                "safe-buffer": "5.2.1",
+                "send": "0.19.0",
+                "serve-static": "1.16.2",
+                "setprototypeof": "1.2.0",
+                "statuses": "2.0.1",
+                "type-is": "~1.6.18",
+                "utils-merge": "1.0.1",
+                "vary": "~1.1.2"
+            },
+            "engines": {
+                "node": ">= 0.10.0"
+            },
+            "funding": {
+                "type": "opencollective",
+                "url": "https://opencollective.com/express"
+            }
+        },
+        "node_modules/finalhandler": {
+            "version": "1.3.1",
+            "resolved": "https://registry.npmjs.org/finalhandler/-/finalhandler-1.3.1.tgz",
+            "integrity": "sha512-6BN9trH7bp3qvnrRyzsBz+g3lZxTNZTbVO2EV1CS0WIcDbawYVdYvGflME/9QP0h0pYlCDBCTjYa9nZzMDpyxQ==",
+            "license": "MIT",
+            "dependencies": {
+                "debug": "2.6.9",
+                "encodeurl": "~2.0.0",
+                "escape-html": "~1.0.3",
+                "on-finished": "2.4.1",
+                "parseurl": "~1.3.3",
+                "statuses": "2.0.1",
+                "unpipe": "~1.0.0"
+            },
+            "engines": {
+                "node": ">= 0.8"
+            }
+        },
+        "node_modules/forwarded": {
+            "version": "0.2.0",
+            "resolved": "https://registry.npmjs.org/forwarded/-/forwarded-0.2.0.tgz",
+            "integrity": "sha512-buRG0fpBtRHSTCOASe6hD258tEubFoRLb4ZNA6NxMVHNw2gOcwHo9wyablzMzOA5z9xA9L1KNjk/Nt6MT9aYow==",
+            "license": "MIT",
+            "engines": {
+                "node": ">= 0.6"
+            }
+        },
+        "node_modules/fresh": {
+            "version": "0.5.2",
+            "resolved": "https://registry.npmjs.org/fresh/-/fresh-0.5.2.tgz",
+            "integrity": "sha512-zJ2mQYM18rEFOudeV4GShTGIQ7RbzA7ozbU9I/XBpm7kqgMywgmylMwXHxZJmkVoYkna9d2pVXVXPdYTP9ej8Q==",
+            "license": "MIT",
+            "engines": {
+                "node": ">= 0.6"
+            }
+        },
+        "node_modules/function-bind": {
+            "version": "1.1.2",
+            "resolved": "https://registry.npmjs.org/function-bind/-/function-bind-1.1.2.tgz",
+            "integrity": "sha512-7XHNxH7qX9xG5mIwxkhumTox/MIRNcOgDrxWsMt2pAr23WHp6MrRlN7FBSFpCpr+oVO0F744iUgR82nJMfG2SA==",
+            "license": "MIT",
+            "funding": {
+                "url": "https://github.com/sponsors/ljharb"
+            }
+        },
+        "node_modules/get-intrinsic": {
+            "version": "1.2.7",
+            "resolved": "https://registry.npmjs.org/get-intrinsic/-/get-intrinsic-1.2.7.tgz",
+            "integrity": "sha512-VW6Pxhsrk0KAOqs3WEd0klDiF/+V7gQOpAvY1jVU/LHmaD/kQO4523aiJuikX/QAKYiW6x8Jh+RJej1almdtCA==",
+            "license": "MIT",
+            "dependencies": {
+                "call-bind-apply-helpers": "^1.0.1",
+                "es-define-property": "^1.0.1",
+                "es-errors": "^1.3.0",
+                "es-object-atoms": "^1.0.0",
+                "function-bind": "^1.1.2",
+                "get-proto": "^1.0.0",
+                "gopd": "^1.2.0",
+                "has-symbols": "^1.1.0",
+                "hasown": "^2.0.2",
+                "math-intrinsics": "^1.1.0"
+            },
+            "engines": {
+                "node": ">= 0.4"
+            },
+            "funding": {
+                "url": "https://github.com/sponsors/ljharb"
+            }
+        },
+        "node_modules/get-proto": {
+            "version": "1.0.1",
+            "resolved": "https://registry.npmjs.org/get-proto/-/get-proto-1.0.1.tgz",
+            "integrity": "sha512-sTSfBjoXBp89JvIKIefqw7U2CCebsc74kiY6awiGogKtoSGbgjYE/G/+l9sF3MWFPNc9IcoOC4ODfKHfxFmp0g==",
+            "license": "MIT",
+            "dependencies": {
+                "dunder-proto": "^1.0.1",
+                "es-object-atoms": "^1.0.0"
+            },
+            "engines": {
+                "node": ">= 0.4"
+            }
+        },
+        "node_modules/gopd": {
+            "version": "1.2.0",
+            "resolved": "https://registry.npmjs.org/gopd/-/gopd-1.2.0.tgz",
+            "integrity": "sha512-ZUKRh6/kUFoAiTAtTYPZJ3hw9wNxx+BIBOijnlG9PnrJsCcSjs1wyyD6vJpaYtgnzDrKYRSqf3OO6Rfa93xsRg==",
+            "license": "MIT",
+            "engines": {
+                "node": ">= 0.4"
+            },
+            "funding": {
+                "url": "https://github.com/sponsors/ljharb"
+            }
+        },
+        "node_modules/has-symbols": {
+            "version": "1.1.0",
+            "resolved": "https://registry.npmjs.org/has-symbols/-/has-symbols-1.1.0.tgz",
+            "integrity": "sha512-1cDNdwJ2Jaohmb3sg4OmKaMBwuC48sYni5HUw2DvsC8LjGTLK9h+eb1X6RyuOHe4hT0ULCW68iomhjUoKUqlPQ==",
+            "license": "MIT",
+            "engines": {
+                "node": ">= 0.4"
+            },
+            "funding": {
+                "url": "https://github.com/sponsors/ljharb"
+            }
+        },
+        "node_modules/hasown": {
+            "version": "2.0.2",
+            "resolved": "https://registry.npmjs.org/hasown/-/hasown-2.0.2.tgz",
+            "integrity": "sha512-0hJU9SCPvmMzIBdZFqNPXWa6dqh7WdH0cII9y+CyS8rG3nL48Bclra9HmKhVVUHyPWNH5Y7xDwAB7bfgSjkUMQ==",
+            "license": "MIT",
+            "dependencies": {
+                "function-bind": "^1.1.2"
+            },
+            "engines": {
+                "node": ">= 0.4"
+            }
+        },
+        "node_modules/http-errors": {
+            "version": "2.0.0",
+            "resolved": "https://registry.npmjs.org/http-errors/-/http-errors-2.0.0.tgz",
+            "integrity": "sha512-FtwrG/euBzaEjYeRqOgly7G0qviiXoJWnvEH2Z1plBdXgbyjv34pHTSb9zoeHMyDy33+DWy5Wt9Wo+TURtOYSQ==",
+            "license": "MIT",
+            "dependencies": {
+                "depd": "2.0.0",
+                "inherits": "2.0.4",
+                "setprototypeof": "1.2.0",
+                "statuses": "2.0.1",
+                "toidentifier": "1.0.1"
+            },
+            "engines": {
+                "node": ">= 0.8"
+            }
+        },
+        "node_modules/iconv-lite": {
+            "version": "0.4.24",
+            "resolved": "https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.4.24.tgz",
+            "integrity": "sha512-v3MXnZAcvnywkTUEZomIActle7RXXeedOR31wwl7VlyoXO4Qi9arvSenNQWne1TcRwhCL1HwLI21bEqdpj8/rA==",
+            "license": "MIT",
+            "dependencies": {
+                "safer-buffer": ">= 2.1.2 < 3"
+            },
+            "engines": {
+                "node": ">=0.10.0"
+            }
+        },
+        "node_modules/inherits": {
+            "version": "2.0.4",
+            "resolved": "https://registry.npmjs.org/inherits/-/inherits-2.0.4.tgz",
+            "integrity": "sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==",
+            "license": "ISC"
+        },
+        "node_modules/ipaddr.js": {
+            "version": "1.9.1",
+            "resolved": "https://registry.npmjs.org/ipaddr.js/-/ipaddr.js-1.9.1.tgz",
+            "integrity": "sha512-0KI/607xoxSToH7GjN1FfSbLoU0+btTicjsQSWQlh/hZykN8KpmMf7uYwPW3R+akZ6R/w18ZlXSHBYXiYUPO3g==",
+            "license": "MIT",
+            "engines": {
+                "node": ">= 0.10"
+            }
+        },
+        "node_modules/math-intrinsics": {
+            "version": "1.1.0",
+            "resolved": "https://registry.npmjs.org/math-intrinsics/-/math-intrinsics-1.1.0.tgz",
+            "integrity": "sha512-/IXtbwEk5HTPyEwyKX6hGkYXxM9nbj64B+ilVJnC/R6B0pH5G4V3b0pVbL7DBj4tkhBAppbQUlf6F6Xl9LHu1g==",
+            "license": "MIT",
+            "engines": {
+                "node": ">= 0.4"
+            }
+        },
+        "node_modules/media-typer": {
+            "version": "0.3.0",
+            "resolved": "https://registry.npmjs.org/media-typer/-/media-typer-0.3.0.tgz",
+            "integrity": "sha512-dq+qelQ9akHpcOl/gUVRTxVIOkAJ1wR3QAvb4RsVjS8oVoFjDGTc679wJYmUmknUF5HwMLOgb5O+a3KxfWapPQ==",
+            "license": "MIT",
+            "engines": {
+                "node": ">= 0.6"
+            }
+        },
+        "node_modules/merge-descriptors": {
+            "version": "1.0.3",
+            "resolved": "https://registry.npmjs.org/merge-descriptors/-/merge-descriptors-1.0.3.tgz",
+            "integrity": "sha512-gaNvAS7TZ897/rVaZ0nMtAyxNyi/pdbjbAwUpFQpN70GqnVfOiXpeUUMKRBmzXaSQ8DdTX4/0ms62r2K+hE6mQ==",
+            "license": "MIT",
+            "funding": {
+                "url": "https://github.com/sponsors/sindresorhus"
+            }
+        },
+        "node_modules/methods": {
+            "version": "1.1.2",
+            "resolved": "https://registry.npmjs.org/methods/-/methods-1.1.2.tgz",
+            "integrity": "sha512-iclAHeNqNm68zFtnZ0e+1L2yUIdvzNoauKU4WBA3VvH/vPFieF7qfRlwUZU+DA9P9bPXIS90ulxoUoCH23sV2w==",
+            "license": "MIT",
+            "engines": {
+                "node": ">= 0.6"
+            }
+        },
+        "node_modules/mime": {
+            "version": "1.6.0",
+            "resolved": "https://registry.npmjs.org/mime/-/mime-1.6.0.tgz",
+            "integrity": "sha512-x0Vn8spI+wuJ1O6S7gnbaQg8Pxh4NNHb7KSINmEWKiPE4RKOplvijn+NkmYmmRgP68mc70j2EbeTFRsrswaQeg==",
+            "license": "MIT",
+            "bin": {
+                "mime": "cli.js"
+            },
+            "engines": {
+                "node": ">=4"
+            }
+        },
+        "node_modules/mime-db": {
+            "version": "1.52.0",
+            "resolved": "https://registry.npmjs.org/mime-db/-/mime-db-1.52.0.tgz",
+            "integrity": "sha512-sPU4uV7dYlvtWJxwwxHD0PuihVNiE7TyAbQ5SWxDCB9mUYvOgroQOwYQQOKPJ8CIbE+1ETVlOoK1UC2nU3gYvg==",
+            "license": "MIT",
+            "engines": {
+                "node": ">= 0.6"
+            }
+        },
+        "node_modules/mime-types": {
+            "version": "2.1.35",
+            "resolved": "https://registry.npmjs.org/mime-types/-/mime-types-2.1.35.tgz",
+            "integrity": "sha512-ZDY+bPm5zTTF+YpCrAU9nK0UgICYPT0QtT1NZWFv4s++TNkcgVaT0g6+4R2uI4MjQjzysHB1zxuWL50hzaeXiw==",
+            "license": "MIT",
+            "dependencies": {
+                "mime-db": "1.52.0"
+            },
+            "engines": {
+                "node": ">= 0.6"
+            }
+        },
+        "node_modules/ms": {
+            "version": "2.0.0",
+            "resolved": "https://registry.npmjs.org/ms/-/ms-2.0.0.tgz",
+            "integrity": "sha512-Tpp60P6IUJDTuOq/5Z8cdskzJujfwqfOTkrwIwj7IRISpnkJnT6SyJ4PCPnGMoFjC9ddhal5KVIYtAt97ix05A==",
+            "license": "MIT"
+        },
+        "node_modules/negotiator": {
+            "version": "0.6.3",
+            "resolved": "https://registry.npmjs.org/negotiator/-/negotiator-0.6.3.tgz",
+            "integrity": "sha512-+EUsqGPLsM+j/zdChZjsnX51g4XrHFOIXwfnCVPGlQk/k5giakcKsuxCObBRu6DSm9opw/O6slWbJdghQM4bBg==",
+            "license": "MIT",
+            "engines": {
+                "node": ">= 0.6"
+            }
+        },
+        "node_modules/object-inspect": {
+            "version": "1.13.3",
+            "resolved": "https://registry.npmjs.org/object-inspect/-/object-inspect-1.13.3.tgz",
+            "integrity": "sha512-kDCGIbxkDSXE3euJZZXzc6to7fCrKHNI/hSRQnRuQ+BWjFNzZwiFF8fj/6o2t2G9/jTj8PSIYTfCLelLZEeRpA==",
+            "license": "MIT",
+            "engines": {
+                "node": ">= 0.4"
+            },
+            "funding": {
+                "url": "https://github.com/sponsors/ljharb"
+            }
+        },
+        "node_modules/on-finished": {
+            "version": "2.4.1",
+            "resolved": "https://registry.npmjs.org/on-finished/-/on-finished-2.4.1.tgz",
+            "integrity": "sha512-oVlzkg3ENAhCk2zdv7IJwd/QUD4z2RxRwpkcGY8psCVcCYZNq4wYnVWALHM+brtuJjePWiYF/ClmuDr8Ch5+kg==",
+            "license": "MIT",
+            "dependencies": {
+                "ee-first": "1.1.1"
+            },
+            "engines": {
+                "node": ">= 0.8"
+            }
+        },
+        "node_modules/parseurl": {
+            "version": "1.3.3",
+            "resolved": "https://registry.npmjs.org/parseurl/-/parseurl-1.3.3.tgz",
+            "integrity": "sha512-CiyeOxFT/JZyN5m0z9PfXw4SCBJ6Sygz1Dpl0wqjlhDEGGBP1GnsUVEL0p63hoG1fcj3fHynXi9NYO4nWOL+qQ==",
+            "license": "MIT",
+            "engines": {
+                "node": ">= 0.8"
+            }
+        },
+        "node_modules/path-to-regexp": {
+            "version": "0.1.12",
+            "resolved": "https://registry.npmjs.org/path-to-regexp/-/path-to-regexp-0.1.12.tgz",
+            "integrity": "sha512-RA1GjUVMnvYFxuqovrEqZoxxW5NUZqbwKtYz/Tt7nXerk0LbLblQmrsgdeOxV5SFHf0UDggjS/bSeOZwt1pmEQ==",
+            "license": "MIT"
+        },
+        "node_modules/proxy-addr": {
+            "version": "2.0.7",
+            "resolved": "https://registry.npmjs.org/proxy-addr/-/proxy-addr-2.0.7.tgz",
+            "integrity": "sha512-llQsMLSUDUPT44jdrU/O37qlnifitDP+ZwrmmZcoSKyLKvtZxpyV0n2/bD/N4tBAAZ/gJEdZU7KMraoK1+XYAg==",
+            "license": "MIT",
+            "dependencies": {
+                "forwarded": "0.2.0",
+                "ipaddr.js": "1.9.1"
+            },
+            "engines": {
+                "node": ">= 0.10"
+            }
+        },
+        "node_modules/qs": {
+            "version": "6.13.0",
+            "resolved": "https://registry.npmjs.org/qs/-/qs-6.13.0.tgz",
+            "integrity": "sha512-+38qI9SOr8tfZ4QmJNplMUxqjbe7LKvvZgWdExBOmd+egZTtjLB67Gu0HRX3u/XOq7UU2Nx6nsjvS16Z9uwfpg==",
+            "license": "BSD-3-Clause",
+            "dependencies": {
+                "side-channel": "^1.0.6"
+            },
+            "engines": {
+                "node": ">=0.6"
+            },
+            "funding": {
+                "url": "https://github.com/sponsors/ljharb"
+            }
+        },
+        "node_modules/range-parser": {
+            "version": "1.2.1",
+            "resolved": "https://registry.npmjs.org/range-parser/-/range-parser-1.2.1.tgz",
+            "integrity": "sha512-Hrgsx+orqoygnmhFbKaHE6c296J+HTAQXoxEF6gNupROmmGJRoyzfG3ccAveqCBrwr/2yxQ5BVd/GTl5agOwSg==",
+            "license": "MIT",
+            "engines": {
+                "node": ">= 0.6"
+            }
+        },
+        "node_modules/raw-body": {
+            "version": "2.5.2",
+            "resolved": "https://registry.npmjs.org/raw-body/-/raw-body-2.5.2.tgz",
+            "integrity": "sha512-8zGqypfENjCIqGhgXToC8aB2r7YrBX+AQAfIPs/Mlk+BtPTztOvTS01NRW/3Eh60J+a48lt8qsCzirQ6loCVfA==",
+            "license": "MIT",
+            "dependencies": {
+                "bytes": "3.1.2",
+                "http-errors": "2.0.0",
+                "iconv-lite": "0.4.24",
+                "unpipe": "1.0.0"
+            },
+            "engines": {
+                "node": ">= 0.8"
+            }
+        },
+        "node_modules/safe-buffer": {
+            "version": "5.2.1",
+            "resolved": "https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.2.1.tgz",
+            "integrity": "sha512-rp3So07KcdmmKbGvgaNxQSJr7bGVSVk5S9Eq1F+ppbRo70+YeaDxkw5Dd8NPN+GD6bjnYm2VuPuCXmpuYvmCXQ==",
+            "funding": [
+                {
+                    "type": "github",
+                    "url": "https://github.com/sponsors/feross"
+                },
+                {
+                    "type": "patreon",
+                    "url": "https://www.patreon.com/feross"
+                },
+                {
+                    "type": "consulting",
+                    "url": "https://feross.org/support"
+                }
+            ],
+            "license": "MIT"
+        },
+        "node_modules/safer-buffer": {
+            "version": "2.1.2",
+            "resolved": "https://registry.npmjs.org/safer-buffer/-/safer-buffer-2.1.2.tgz",
+            "integrity": "sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==",
+            "license": "MIT"
+        },
+        "node_modules/send": {
+            "version": "0.19.0",
+            "resolved": "https://registry.npmjs.org/send/-/send-0.19.0.tgz",
+            "integrity": "sha512-dW41u5VfLXu8SJh5bwRmyYUbAoSB3c9uQh6L8h/KtsFREPWpbX1lrljJo186Jc4nmci/sGUZ9a0a0J2zgfq2hw==",
+            "license": "MIT",
+            "dependencies": {
+                "debug": "2.6.9",
+                "depd": "2.0.0",
+                "destroy": "1.2.0",
+                "encodeurl": "~1.0.2",
+                "escape-html": "~1.0.3",
+                "etag": "~1.8.1",
+                "fresh": "0.5.2",
+                "http-errors": "2.0.0",
+                "mime": "1.6.0",
+                "ms": "2.1.3",
+                "on-finished": "2.4.1",
+                "range-parser": "~1.2.1",
+                "statuses": "2.0.1"
+            },
+            "engines": {
+                "node": ">= 0.8.0"
+            }
+        },
+        "node_modules/send/node_modules/encodeurl": {
+            "version": "1.0.2",
+            "resolved": "https://registry.npmjs.org/encodeurl/-/encodeurl-1.0.2.tgz",
+            "integrity": "sha512-TPJXq8JqFaVYm2CWmPvnP2Iyo4ZSM7/QKcSmuMLDObfpH5fi7RUGmd/rTDf+rut/saiDiQEeVTNgAmJEdAOx0w==",
+            "license": "MIT",
+            "engines": {
+                "node": ">= 0.8"
+            }
+        },
+        "node_modules/send/node_modules/ms": {
+            "version": "2.1.3",
+            "resolved": "https://registry.npmjs.org/ms/-/ms-2.1.3.tgz",
+            "integrity": "sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==",
+            "license": "MIT"
+        },
+        "node_modules/serve-static": {
+            "version": "1.16.2",
+            "resolved": "https://registry.npmjs.org/serve-static/-/serve-static-1.16.2.tgz",
+            "integrity": "sha512-VqpjJZKadQB/PEbEwvFdO43Ax5dFBZ2UECszz8bQ7pi7wt//PWe1P6MN7eCnjsatYtBT6EuiClbjSWP2WrIoTw==",
+            "license": "MIT",
+            "dependencies": {
+                "encodeurl": "~2.0.0",
+                "escape-html": "~1.0.3",
+                "parseurl": "~1.3.3",
+                "send": "0.19.0"
+            },
+            "engines": {
+                "node": ">= 0.8.0"
+            }
+        },
+        "node_modules/setprototypeof": {
+            "version": "1.2.0",
+            "resolved": "https://registry.npmjs.org/setprototypeof/-/setprototypeof-1.2.0.tgz",
+            "integrity": "sha512-E5LDX7Wrp85Kil5bhZv46j8jOeboKq5JMmYM3gVGdGH8xFpPWXUMsNrlODCrkoxMEeNi/XZIwuRvY4XNwYMJpw==",
+            "license": "ISC"
+        },
+        "node_modules/side-channel": {
+            "version": "1.1.0",
+            "resolved": "https://registry.npmjs.org/side-channel/-/side-channel-1.1.0.tgz",
+            "integrity": "sha512-ZX99e6tRweoUXqR+VBrslhda51Nh5MTQwou5tnUDgbtyM0dBgmhEDtWGP/xbKn6hqfPRHujUNwz5fy/wbbhnpw==",
+            "license": "MIT",
+            "dependencies": {
+                "es-errors": "^1.3.0",
+                "object-inspect": "^1.13.3",
+                "side-channel-list": "^1.0.0",
+                "side-channel-map": "^1.0.1",
+                "side-channel-weakmap": "^1.0.2"
+            },
+            "engines": {
+                "node": ">= 0.4"
+            },
+            "funding": {
+                "url": "https://github.com/sponsors/ljharb"
+            }
+        },
+        "node_modules/side-channel-list": {
+            "version": "1.0.0",
+            "resolved": "https://registry.npmjs.org/side-channel-list/-/side-channel-list-1.0.0.tgz",
+            "integrity": "sha512-FCLHtRD/gnpCiCHEiJLOwdmFP+wzCmDEkc9y7NsYxeF4u7Btsn1ZuwgwJGxImImHicJArLP4R0yX4c2KCrMrTA==",
+            "license": "MIT",
+            "dependencies": {
+                "es-errors": "^1.3.0",
+                "object-inspect": "^1.13.3"
+            },
+            "engines": {
+                "node": ">= 0.4"
+            },
+            "funding": {
+                "url": "https://github.com/sponsors/ljharb"
+            }
+        },
+        "node_modules/side-channel-map": {
+            "version": "1.0.1",
+            "resolved": "https://registry.npmjs.org/side-channel-map/-/side-channel-map-1.0.1.tgz",
+            "integrity": "sha512-VCjCNfgMsby3tTdo02nbjtM/ewra6jPHmpThenkTYh8pG9ucZ/1P8So4u4FGBek/BjpOVsDCMoLA/iuBKIFXRA==",
+            "license": "MIT",
+            "dependencies": {
+                "call-bound": "^1.0.2",
+                "es-errors": "^1.3.0",
+                "get-intrinsic": "^1.2.5",
+                "object-inspect": "^1.13.3"
+            },
+            "engines": {
+                "node": ">= 0.4"
+            },
+            "funding": {
+                "url": "https://github.com/sponsors/ljharb"
+            }
+        },
+        "node_modules/side-channel-weakmap": {
+            "version": "1.0.2",
+            "resolved": "https://registry.npmjs.org/side-channel-weakmap/-/side-channel-weakmap-1.0.2.tgz",
+            "integrity": "sha512-WPS/HvHQTYnHisLo9McqBHOJk2FkHO/tlpvldyrnem4aeQp4hai3gythswg6p01oSoTl58rcpiFAjF2br2Ak2A==",
+            "license": "MIT",
+            "dependencies": {
+                "call-bound": "^1.0.2",
+                "es-errors": "^1.3.0",
+                "get-intrinsic": "^1.2.5",
+                "object-inspect": "^1.13.3",
+                "side-channel-map": "^1.0.1"
+            },
+            "engines": {
+                "node": ">= 0.4"
+            },
+            "funding": {
+                "url": "https://github.com/sponsors/ljharb"
+            }
+        },
+        "node_modules/statuses": {
+            "version": "2.0.1",
+            "resolved": "https://registry.npmjs.org/statuses/-/statuses-2.0.1.tgz",
+            "integrity": "sha512-RwNA9Z/7PrK06rYLIzFMlaF+l73iwpzsqRIFgbMLbTcLD6cOao82TaWefPXQvB2fOC4AjuYSEndS7N/mTCbkdQ==",
+            "license": "MIT",
+            "engines": {
+                "node": ">= 0.8"
+            }
+        },
+        "node_modules/toidentifier": {
+            "version": "1.0.1",
+            "resolved": "https://registry.npmjs.org/toidentifier/-/toidentifier-1.0.1.tgz",
+            "integrity": "sha512-o5sSPKEkg/DIQNmH43V0/uerLrpzVedkUh8tGNvaeXpfpuwjKenlSox/2O/BTlZUtEe+JG7s5YhEz608PlAHRA==",
+            "license": "MIT",
+            "engines": {
+                "node": ">=0.6"
+            }
+        },
+        "node_modules/type-is": {
+            "version": "1.6.18",
+            "resolved": "https://registry.npmjs.org/type-is/-/type-is-1.6.18.tgz",
+            "integrity": "sha512-TkRKr9sUTxEH8MdfuCSP7VizJyzRNMjj2J2do2Jr3Kym598JVdEksuzPQCnlFPW4ky9Q+iA+ma9BGm06XQBy8g==",
+            "license": "MIT",
+            "dependencies": {
+                "media-typer": "0.3.0",
+                "mime-types": "~2.1.24"
+            },
+            "engines": {
+                "node": ">= 0.6"
+            }
+        },
+        "node_modules/unpipe": {
+            "version": "1.0.0",
+            "resolved": "https://registry.npmjs.org/unpipe/-/unpipe-1.0.0.tgz",
+            "integrity": "sha512-pjy2bYhSsufwWlKwPc+l3cN7+wuJlK6uz0YdJEOlQDbl6jo/YlPi4mb8agUkVC8BF7V8NuzeyPNqRksA3hztKQ==",
+            "license": "MIT",
+            "engines": {
+                "node": ">= 0.8"
+            }
+        },
+        "node_modules/utils-merge": {
+            "version": "1.0.1",
+            "resolved": "https://registry.npmjs.org/utils-merge/-/utils-merge-1.0.1.tgz",
+            "integrity": "sha512-pMZTvIkT1d+TFGvDOqodOclx0QWkkgi6Tdoa8gC8ffGAAqz9pzPTZWAybbsHHoED/ztMtkv/VoYTYyShUn81hA==",
+            "license": "MIT",
+            "engines": {
+                "node": ">= 0.4.0"
+            }
+        },
+        "node_modules/vary": {
+            "version": "1.1.2",
+            "resolved": "https://registry.npmjs.org/vary/-/vary-1.1.2.tgz",
+            "integrity": "sha512-BNGbWLfd0eUPabhkXUVm0j8uuvREyTh5ovRa/dyow/BqAbZJyC+5fU+IzQOzmAKzYqYRAISoRhdQr3eIZ/PXqg==",
+            "license": "MIT",
+            "engines": {
+                "node": ">= 0.8"
+            }
+        }
+    }
+}
+
+```
+
+```
+./package.json
+
+{
+    "name": "router-example",
+    "version": "1.0.0",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js"
+    },
+    "dependencies": {
+      "express": "^4.18.2"
+    }
+  }
+  
+```
+
+```
+./r.sh
+
+#!/bin/bash
+
+output_file="output.txt"
+
+# 파일을 새로 쓸 준비(기존 내용 초기화)
+> "$output_file"
+
+# ls -R 결과를 먼저 출력(백틱으로 감싸기)
+{
+  echo '```'
+  ls -R | grep -v "node_modules"
+  echo '```'
+  echo
+} >> "$output_file"
+
+# find를 사용해 node_modules/.git 폴더는 제외, PNG 파일 제외, output.txt 자신 제외
+find . \
+  \( -path '*/node_modules/*' -o -path '*/.git/*' \) -prune -o \
+  -type f \
+  ! -path "./$output_file" \
+  ! -path "./$output_file" \
+  ! -iname '*.png' \
+  -print | while read -r file; do
+    
+    echo '```' >> "$output_file"
+    echo "$file" >> "$output_file"
+    echo >> "$output_file"
+    cat "$file" >> "$output_file"
+    echo >> "$output_file"
+    echo '```' >> "$output_file"
+    echo >> "$output_file"
+done
+
+echo "모든 파일 내용을 '$output_file'에 저장 완료(단, PNG 파일 제외)."
+
+
+```
+
+```
+./scripts/style/navbar.css
+
+#navbar nav {
+  display: flex;
+  width: 100%;
+  background-color: #e8ebf0;
+  padding: 10px 0; /* 상하 여백 */
+  justify-content: center; /* 수평 중앙 정렬 */
+  align-items: center; /* 수직 중앙 정렬 */
+  box-sizing: border-box;
+}
+
+#navbar nav > div {
+  display: flex;
+  align-items: center; /* 내부 요소 수직 중앙 정렬 */
+  gap: 20px; /* 요소 간격 */
+}
+
+#navbar nav div div {
+  display: flex; /* 내부 요소를 가로로 배치 */
+  align-items: center; /* 수직 정렬 */
+  gap: 20px; /* 링크와 로고 사이 간격 */
+}
+
+#navbar nav img {
+  height: 16px; /* 로고 크기 */
+}
+
+#navbar nav a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  color: #4b4b4b; /* 기본 색상 */
+  transition: color 0.3s;
+}
+
+#navbar nav a.nav-link {
+  color: #4b4b4b; /* 활성화된 링크 색상 */
+}
+
+#navbar nav a.nav-link.active {
+  color: #6e44ff; /* 활성화된 링크 색상 */
+}
+
+
+```
+
+```
+./scripts/style/main.css
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+#app {
+    display: flex;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+```
+
+```
+./scripts/components/navbar.js
+
+// navbar.js
+const navbar = document.getElementById("navbar");
+
+navbar.innerHTML = `
+  <nav>
+    <div>
+      <div>
+        <!-- 절대 경로 /static/Logo.png -->
+        <img src="/static/Logo.png" alt="Logo">
+        <a href="/profile" class="nav-link">Profile</a>
+        <a href="/game/option" class="nav-link">GamePlay</a>
+      </div>
+    </div>
+  </nav>
+`;
+
+function updateActiveLink() {
+  const currentHash = window.location.hash;
+  document.querySelectorAll('.nav-link').forEach(link => {
+    if (link.getAttribute('href') === currentHash) {
+      link.classList.add('active');
+    } else {
+      link.classList.remove('active');
+    }
+  });
+}
+
+updateActiveLink();
+
+```
+
+```
+./scripts/router.js
+
+// router.js
+
+import { getGameOptionPage, setupGameOptionEvents } from './pages/game/option.js';
+import { getGamePlayersPage, setupGamePlayersEvents } from './pages/game/players.js';
+
+// ✅ 1) 모든 라우트를 '객체' 형태로 선언
+const pages = {
+  "/": {
+    render: () => `
+      <h1>Login Page</h1>
+      <p>Welcome to the login page.</p>
+    `
+  },
+  "/game/option": {
+    render: getGameOptionPage,
+    setupEvents: setupGameOptionEvents
+  },
+  "/game/players": {
+    render: getGamePlayersPage,
+    setupEvents: setupGamePlayersEvents
+  },
+  "/profile": {
+    render: () => `
+      <h1>Profile Page</h1>
+      <p>Manage your profile information.</p>
+    `
+  }
+};
+
+// 라우팅 메인 함수
+function router() {
+  // 현재 브라우저 주소 경로
+  const path = window.location.pathname;
+  // pages에서 해당 경로가 없으면 "/" (메인 페이지)로 대체
+  const page = pages[path] || pages["/"];
+
+  // 메인 컨테이너
+  const app = document.getElementById("app");
+
+  // 객체 형태이므로 page.render() 호출
+  app.innerHTML = page.render();
+
+  // setupEvents가 있으면 실행
+  if (page.setupEvents) {
+    page.setupEvents();
+  }
+}
+
+// ✅ 2) navigateTo를 전역(window) 함수로 등록하여 순환참조 제거
+function _navigateTo(url) {
+  window.history.pushState({}, "", url);
+  router();
+}
+window.navigateTo = _navigateTo;
+
+// 뒤로 가기/앞으로 가기 시 라우터 재실행
+window.addEventListener("popstate", router);
+
+// 첫 로딩 시 라우터 실행
+window.addEventListener("DOMContentLoaded", router);
+
+```
+
+```
+./scripts/pages/game/tournamant.js
+
+
+```
+
+```
+./scripts/pages/game/option.js
+
+function getGameOptionPage() {
+  return `
+    <div class="container py-5">
+      <!-- Header Section -->
+      <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2 class="fw-bold">Game Option</h2>
+        <button class="btn btn-outline-secondary">
+          <i class="bi bi-arrow-left"></i> Back
+        </button>
+      </div>
+
+      <!-- Players Section -->
+      <div class="card mb-4">
+        <div class="card-body">
+          <h5 class="card-title">Players</h5>
+          <div class="btn-group w-100" role="group">
+            <button type="button" class="btn btn-primary active">2</button>
+            <button type="button" class="btn btn-outline-primary">4</button>
+            <button type="button" class="btn btn-outline-primary">8</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Paddle Size Section -->
+      <div class="card mb-4">
+        <div class="card-body">
+          <h5 class="card-title">Paddle Size</h5>
+          <div class="btn-group w-100" role="group">
+            <button type="button" class="btn btn-primary active">x1</button>
+            <button type="button" class="btn btn-outline-primary">x1.25</button>
+            <button type="button" class="btn btn-outline-primary">x1.5</button>
+            <button type="button" class="btn btn-outline-primary">x1.75</button>
+            <button type="button" class="btn btn-outline-primary">x2.0</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Ball Speed Section -->
+      <div class="card mb-4">
+        <div class="card-body">
+          <h5 class="card-title">Ball Speed</h5>
+          <div class="btn-group w-100" role="group">
+            <button type="button" class="btn btn-primary active">x1</button>
+            <button type="button" class="btn btn-outline-primary">x1.25</button>
+            <button type="button" class="btn btn-outline-primary">x1.5</button>
+            <button type="button" class="btn btn-outline-primary">x1.75</button>
+            <button type="button" class="btn btn-outline-primary">x2.0</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Obstacles Section -->
+      <div class="card mb-4">
+        <div class="card-body">
+          <h5 class="card-title">Obstacles Number</h5>
+          <div class="btn-group w-100" role="group">
+            <button type="button" class="btn btn-primary active">1</button>
+            <button type="button" class="btn btn-outline-primary">2</button>
+            <button type="button" class="btn btn-outline-primary">3</button>
+            <button type="button" class="btn btn-outline-primary">4</button>
+            <button type="button" class="btn btn-outline-primary">5</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Background Theme Section -->
+      <div class="card mb-4">
+        <div class="card-body">
+          <h5 class="card-title">Background Theme</h5>
+          <div class="row">
+            ${[...Array(5)].map(
+              (_, i) => `
+              <div class="col-6 col-md-2 mb-3">
+                <div class="card bg-light">
+                  <img src="../static/placeholder.png" class="card-img-top rounded" alt="Theme ${i + 1}">
+                  <div class="card-body text-center">
+                    <small class="text-muted">Placeholder ${i + 1}</small>
+                  </div>
+                </div>
+              </div>
+            `
+            ).join("")}
+          </div>
+        </div>
+      </div>
+
+      <!-- Next Button -->
+      <div class="text-center">
+        <button id="nextBtn" class="btn btn-success w-50">Next</button>
+      </div>
+    </div>
+  `;ㄴㄴ
+}
+
+function setupGameOptionEvents() {
+  const nextBtn = document.getElementById("nextBtn");
+  if (nextBtn) {
+    nextBtn.addEventListener("click", () => {
+      window.navigateTo("/game/players");
+    })
+  }
+}
+
+export { getGameOptionPage, setupGameOptionEvents};
+```
+
+```
+./scripts/pages/game/players.js
+
+function getGamePlayersPage() {
+    return `
+        <div class="container" style="max-width: 600px; margin-top: 50px;">
+            <h2 class="mb-4">Player List</h2>
+            <div id="playerList">
+                ${Array.from({ length: 8 }, (_, i) => `
+                    <div class="mb-3">
+                        <label class="form-label">User ${i + 1}</label>
+                        <div class="d-flex align-items-center gap-2">
+                            <input type="text" class="form-control username-input" placeholder="username" oninput="validateInputs()">
+                            <span class="validation-icon"></span>
+                        </div>
+                        <div class="error-text text-danger" style="font-size: 12px;"></div>
+                    </div>
+                `).join('')}
+            </div>
+            <button id="nextBtn" class="btn btn-primary mt-3" disabled>Next</button>
+        </div>
+
+        <script>
+            function validateInputs() {
+                const inputs = document.querySelectorAll(".username-input");
+                let allValid = true;
+
+                inputs.forEach(input => {
+                    const username = input.value.trim();
+                    const icon = input.nextElementSibling;
+                    const errorText = input.parentElement.nextElementSibling;
+
+                    if (/^[a-zA-Z0-9_]{3,12}$/.test(username)) {
+                        icon.textContent = "✅";
+                        errorText.textContent = "";
+                    } else if (username.length > 0) {
+                        icon.textContent = "❌";
+                        errorText.textContent = "username rule: 3~12 letters, no special chars";
+                        allValid = false;
+                    } else {
+                        icon.textContent = "";
+                        errorText.textContent = "";
+                        allValid = false;
+                    }
+                });
+
+                document.getElementById("nextBtn").disabled = !allValid;
+            }
+        </script>
+    `;
+}
+
+function setupGamePlayersEvents() {
+  const nextBtn = document.getElementById("nextBtn");
+  if (nextBtn) {
+    nextBtn.addEventListener("click", () => {
+      navigateTo("/game/players/tournamant");
+    })
+  }
+}
+
+export { getGamePlayersPage, setupGamePlayersEvents };
+
+```
+
+```
+./scripts/pages/profile/profile.js
+
+
+```
+
+```
+./scripts/pages/authorization/signup.js
+
+
+```
+
+```
+./scripts/pages/authorization/login.js
+
+
+```
+

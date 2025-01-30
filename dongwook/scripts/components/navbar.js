@@ -1,12 +1,14 @@
-const navbar = document.getElementById('navbar');
+// navbar.js
+const navbar = document.getElementById("navbar");
 
 navbar.innerHTML = `
   <nav>
     <div>
       <div>
-        <img src="../static/logo.png" alt="Logo">
-        <a href="#profile" class="nav-link">Profile</a>
-        <a href="#gameplay" class="nav-link">GamePlay</a>
+        <!-- 절대 경로 /static/Logo.png -->
+        <img src="/static/Logo.png" alt="Logo">
+        <a href="/profile" class="nav-link">Profile</a>
+        <a href="/game/option" class="nav-link">GamePlay</a>
       </div>
     </div>
   </nav>
@@ -24,11 +26,3 @@ function updateActiveLink() {
 }
 
 updateActiveLink();
-window.addEventListener('hashchange', updateActiveLink);
-
-
-
-// const nextButton = document.getElementById('next-button');
-// nextButton.addEventListener('click', () => {
-//   window.location.hash = '#gameplay'; // 특정 해시로 이동
-// });
