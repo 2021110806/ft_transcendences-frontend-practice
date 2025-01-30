@@ -17,10 +17,10 @@ const pages = {
   gameplay: window.getGameOptionPage, 
   // 혹은 ESModule 방식이라면 import 해서: gameplay: getGameOptionPage,
 
-  profile: () => `
-    <h1>Profile Page</h1>
-    <p>Manage your profile information.</p>
-  `,
+  profile: () => {
+    return window.createProfilePage().outerHTML;
+  },
+  
 
   // 기본(해당 해시가 없을 경우)
   default: () => `
@@ -31,14 +31,23 @@ const pages = {
 
 // 라우터 함수
 function router() {
-  const hash = window.location.hash.replace('#', '') || 'gameplay';
+  
+  const hash = window.location.hash.replace('#', '') || 'default';
   console.log('Current hash:', hash);
 
   const app = document.getElementById('app');
   const renderPage = pages[hash] || pages.default;
-
+  console.log('Current hash:', hash);
+  console.log('Rendered page:', renderPage);
+  
   // HTML 문자열을 받아서 app.innerHTML에 주입
-  app.innerHTML = renderPage();
+  const pageContent = renderPage();
+  if (typeof pageContent === 'string') {
+    app.innerHTML = pageContent;
+  } else {
+    app.replaceChildren(pageContent);
+  }
+
   console.log('App innerHTML updated:', app.innerHTML);
 }
 
