@@ -103,16 +103,16 @@ function createProfilePage() {
                 </div>
             </div>
             <div class="accordion-item mb-3 border-0">
-                <button class="w-100 p-3 text-start bg-white rounded-3 shadow-sm d-flex justify-content-between align-items-center" 
-                    data-content="friends" onclick="toggleContent('friends')">
-                    <span class="fs-4 fw-bold">Friends</span>
-                    <i class="bi bi-chevron-down"></i>
-                </button>
-                <div id="friends" class="content p-3 bg-white rounded-3 mt-2" style="display: none;">
-                    <div>Friend 1</div>
-                    <div>Friend 2</div>
-                    <div>Friend 3</div>
-                </div>
+                <div class="accordion mt-4">
+                    <div class="accordion-item mb-3 border-0">
+                        <button class="w-100 p-3 text-start bg-white rounded-3 shadow-sm d-flex justify-content-between align-items-center" 
+                            data-content="friends" onclick="toggleContent('friends')">
+                            <span class="fs-4 fw-bold">Friends</span>
+                            <i class="bi bi-chevron-down"></i>
+                        </button>
+                        <div id="friends" class="content p-3 bg-white rounded-3 mt-2" style="display: none;">
+                            <!-- Friends list will be rendered here -->
+                        </div>
             </div>
 
             <div class="accordion-item mb-3 border-0">
@@ -150,7 +150,6 @@ function toggleContent(id) {
     const button = content.previousElementSibling;
     const icon = button.querySelector('.bi-chevron-down');
     
-    // 다른 모든 content를 닫습니다
     document.querySelectorAll('.content').forEach(el => {
         if (el.id !== id) {
             el.style.display = 'none';
@@ -158,14 +157,16 @@ function toggleContent(id) {
         }
     });
 
-    // 선택된 content를 토글합니다
     if (content.style.display === 'none' || content.style.display === '') {
         content.style.display = 'block';
         icon.style.transform = 'rotate(180deg)';
         
-        // Match History가 열릴 때 내용을 렌더링
         if (id === 'matchHistory') {
             content.innerHTML = loadMatchHistory();
+        }
+        
+        else if (id === 'friends') {
+            renderFriends();
         }
     } else {
         content.style.display = 'none';
@@ -173,6 +174,5 @@ function toggleContent(id) {
     }
 }
 
-// toggleContent 함수를 전역으로 내보내기
 window.toggleContent = toggleContent;
 window.createProfilePage = createProfilePage;
