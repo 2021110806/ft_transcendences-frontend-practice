@@ -1,6 +1,6 @@
 /* General Styles */
 .container {
-    max-width: 800px;
+    max-width: 800px; 
     margin: 0 auto;
     padding: 1rem;
 }
@@ -116,18 +116,46 @@
     transition: all 0.3s ease;
 }
 
-.bi-chevron-down {
-    transition: transform 0.3s ease;
-}
-
+/* Background purple color for setting buttons */
 .bg-purple {
     background-color: #6f42c1;
 }
 
-/* Add Friend 텍스트 스타일 */
+/* Button Color Customization */
+.btn-purple {
+    background-color: #6f42c1;
+    color: white;
+    border: none;
+}
+
+.btn-outline-primary {
+    border: 1px solid #6f42c1;
+    color: #6f42c1;
+    background-color: transparent;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+}
+
+/* Text styles */
 .add-friend-title {
     font-weight: bold;       /* 글씨 굵게 */
     color: #6f42c1;          /* 보라색 텍스트 (#6f42c1) */
     font-size: 1.5rem;       /* 적당한 크기 */
     margin-bottom: 1rem;     /* 제목 아래 여백 */
 }
+
+/* Form Labels */
+.form-label {
+    text-align: left;
+    font-weight: bold;
+}
+
+/* Aligning input fields to left */
+input, select {
+    text-align: left;
+}
+

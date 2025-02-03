@@ -122,9 +122,6 @@ function createProfilePage() {
                     <i class="bi bi-chevron-down"></i>
                 </button>
                 <div id="setting" class="content p-3 bg-white rounded-3 mt-2" style="display: none;">
-                    <div>Setting 1</div>
-                    <div>Setting 2</div>
-                    <div>Setting 3</div>
                 </div>
             </div>
         </div>
@@ -167,6 +164,11 @@ function toggleContent(id) {
         
         else if (id === 'friends') {
             renderFriends();
+        }
+
+        else if (id === 'setting') {
+            content.innerHTML = ''; // Clear previous content
+            content.appendChild(renderSettings()); // Render settings content();
         }
     } else {
         content.style.display = 'none';
