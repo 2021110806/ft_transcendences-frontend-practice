@@ -27,7 +27,7 @@ function initializeDropdowns() {
     });
 }
 
-function createProfilePage() {
+export function createProfilePage() {
     const container = document.createElement('div');
     container.className = 'container py-5';
 

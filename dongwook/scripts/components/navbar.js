@@ -1,34 +1,15 @@
-const navbar = document.getElementById('navbar');
-
-navbar.innerHTML = `
-  <nav>
-    <div>
+// public/scripts/components/Navbar.js
+export function renderNavbar() {
+  const navbarEl = document.getElementById('navbar');
+  navbarEl.innerHTML = `
+    <nav>
       <div>
-        <img src="../static/logo.png" alt="Logo">
-        <a href="#profile" class="nav-link">Profile</a>
-        <a href="#gameplay" class="nav-link">GamePlay</a>
+        <div>
+          <img src="./static/logo.png" alt="Logo" style="height:16px;">
+          <a href="/profile" class="nav-link" data-link>Profile</a>
+          <a href="/gameplay" class="nav-link" data-link>GamePlay</a>
+        </div>
       </div>
-    </div>
-  </nav>
-`;
-
-function updateActiveLink() {
-  const currentHash = window.location.hash;
-  document.querySelectorAll('.nav-link').forEach(link => {
-    if (link.getAttribute('href') === currentHash) {
-      link.classList.add('active');
-    } else {
-      link.classList.remove('active');
-    }
-  });
+    </nav>
+  `;
 }
-
-updateActiveLink();
-window.addEventListener('hashchange', updateActiveLink);
-
-
-
-// const nextButton = document.getElementById('next-button');
-// nextButton.addEventListener('click', () => {
-//   window.location.hash = '#gameplay'; // 특정 해시로 이동
-// });

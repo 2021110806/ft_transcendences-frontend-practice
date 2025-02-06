@@ -1,33 +1,51 @@
-const express = require('express');
-const path = require('path');
+// public/scripts/router.js
+import { createProfilePage } from './pages/profile/profile.js';
+import { getGameOptionPage } from './pages/game/gameOption.js';
+import { getPingPongGamePage } from './pages/game/pingpong.js';
 
-const app = express();
-const PORT = 3000;
+// 라우트 테이블
+const routes = {
+  '/': () => `<h1>Welcome</h1><p>Select a page from the menu.</p>`,
+  '/profile': () => createProfilePage().outerHTML,
+  '/gameplay': () => getGameOptionPage(),
+  '/pingpong': () => getPingPongGamePage(),
+};
 
-// 정적 파일 서빙 (주: 이미 작성되어 있는 코드일 것입니다)
-app.use(express.static(path.join(__dirname), {
-  setHeaders: (res, filePath) => {
-    console.log(`Serving File: ${filePath}`);
-    if (filePath.endsWith('.js')) {
-      console.log(`Setting Content-Type: application/javascript`);
-      res.setHeader('Content-Type', 'application/javascript');
-    }
+// 라우터 함수
+export function router() {
+  const path = window.location.pathname;
+  const app = document.getElementById('app');
+
+  // 매칭 안 되면 홈('/')으로
+  const pageFn = routes[path] || routes['/'];
+  const pageOutput = typeof pageFn === 'function' ? pageFn() : pageFn;
+
+  if (typeof pageOutput === 'string') {
+    app.innerHTML = pageOutput;
+  } else {
+    app.replaceChildren(pageOutput);
   }
-}));
+}
 
-// 모든 요청 로깅(이미 있는 미들웨어)
-app.use((req, res, next) => {
-  console.log(`Request URL: ${req.url}`);
-  next();
-});
+// 페이지 이동
+export function navigateTo(url) {
+  history.pushState({}, "", url);
+  router();
+}
 
-// ★★★ 폴백 라우팅 추가: 
-// /profile, /gameplay 등의 직접 접근(새로고침 포함) 시에도 항상 index.html을 반환.
-app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, 'index.html'));
-});
+// 라우터 초기화
+export function initRouter() {
+  // 1) popstate로 뒤로가기/앞으로가기 감지
+  window.addEventListener('popstate', router);
 
-// 서버 시작
-app.listen(PORT, () => {
-  console.log(`Server is running at http://localhost:${PORT}`);
-});
+  // 2) a[data-link] 클릭 가로채기
+  document.addEventListener('click', e => {
+    const link = e.target.closest('a[data-link]');
+    if (!link) return;
+    e.preventDefault();
+    navigateTo(link.getAttribute('href'));
+  });
+
+  // 3) 페이지 최초 로드 시 라우터 실행
+  router();
+}

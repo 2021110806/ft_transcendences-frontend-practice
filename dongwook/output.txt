@@ -4,6 +4,7 @@ node_modules
 output.txt
 package-lock.json
 package.json
+q.md
 r.sh
 scripts
 server.js
@@ -72,6 +73,7 @@ side-channel-list
 side-channel-map
 side-channel-weakmap
 statuses
+three
 toidentifier
 type-is
 unpipe
@@ -858,6 +860,1408 @@ codes.json
 index.js
 package.json
 
+./node_modules/three:
+LICENSE
+README.md
+build
+examples
+package.json
+src
+
+./node_modules/three/build:
+three.cjs
+three.core.js
+three.core.min.js
+three.module.js
+three.module.min.js
+three.tsl.js
+three.tsl.min.js
+three.webgpu.js
+three.webgpu.min.js
+three.webgpu.nodes.js
+three.webgpu.nodes.min.js
+
+./node_modules/three/examples:
+fonts
+jsm
+
+./node_modules/three/examples/fonts:
+LICENSE
+README.md
+droid
+gentilis_bold.typeface.json
+gentilis_regular.typeface.json
+helvetiker_bold.typeface.json
+helvetiker_regular.typeface.json
+optimer_bold.typeface.json
+optimer_regular.typeface.json
+ttf
+
+./node_modules/three/examples/fonts/droid:
+NOTICE
+README.txt
+droid_sans_bold.typeface.json
+droid_sans_mono_regular.typeface.json
+droid_sans_regular.typeface.json
+droid_serif_bold.typeface.json
+droid_serif_regular.typeface.json
+
+./node_modules/three/examples/fonts/ttf:
+README.md
+kenpixel.ttf
+
+./node_modules/three/examples/jsm:
+Addons.js
+animation
+capabilities
+controls
+csm
+curves
+effects
+environments
+exporters
+geometries
+helpers
+interactive
+libs
+lighting
+lights
+lines
+loaders
+materials
+math
+misc
+modifiers
+objects
+offscreen
+physics
+postprocessing
+renderers
+shaders
+textures
+transpiler
+tsl
+utils
+webxr
+
+./node_modules/three/examples/jsm/animation:
+AnimationClipCreator.js
+CCDIKSolver.js
+
+./node_modules/three/examples/jsm/capabilities:
+WebGL.js
+WebGPU.js
+
+./node_modules/three/examples/jsm/controls:
+ArcballControls.js
+DragControls.js
+FirstPersonControls.js
+FlyControls.js
+MapControls.js
+OrbitControls.js
+PointerLockControls.js
+TrackballControls.js
+TransformControls.js
+
+./node_modules/three/examples/jsm/csm:
+CSM.js
+CSMFrustum.js
+CSMHelper.js
+CSMShader.js
+CSMShadowNode.js
+
+./node_modules/three/examples/jsm/curves:
+CurveExtras.js
+NURBSCurve.js
+NURBSSurface.js
+NURBSUtils.js
+NURBSVolume.js
+
+./node_modules/three/examples/jsm/effects:
+AnaglyphEffect.js
+AsciiEffect.js
+OutlineEffect.js
+ParallaxBarrierEffect.js
+PeppersGhostEffect.js
+StereoEffect.js
+
+./node_modules/three/examples/jsm/environments:
+DebugEnvironment.js
+RoomEnvironment.js
+
+./node_modules/three/examples/jsm/exporters:
+DRACOExporter.js
+EXRExporter.js
+GLTFExporter.js
+KTX2Exporter.js
+OBJExporter.js
+PLYExporter.js
+STLExporter.js
+USDZExporter.js
+
+./node_modules/three/examples/jsm/geometries:
+BoxLineGeometry.js
+ConvexGeometry.js
+DecalGeometry.js
+ParametricGeometries.js
+ParametricGeometry.js
+RoundedBoxGeometry.js
+TeapotGeometry.js
+TextGeometry.js
+
+./node_modules/three/examples/jsm/helpers:
+LightProbeHelper.js
+LightProbeHelperGPU.js
+OctreeHelper.js
+PositionalAudioHelper.js
+RectAreaLightHelper.js
+TextureHelper.js
+TextureHelperGPU.js
+VertexNormalsHelper.js
+VertexTangentsHelper.js
+ViewHelper.js
+
+./node_modules/three/examples/jsm/interactive:
+HTMLMesh.js
+InteractiveGroup.js
+SelectionBox.js
+SelectionHelper.js
+
+./node_modules/three/examples/jsm/libs:
+ammo.wasm.js
+ammo.wasm.wasm
+basis
+chevrotain.module.min.js
+demuxer_mp4.js
+draco
+ecsy.module.js
+fflate.module.js
+ktx-parse.module.js
+lil-gui.module.min.js
+lottie_canvas.module.js
+meshopt_decoder.module.js
+mikktspace.module.js
+motion-controllers.module.js
+opentype.module.js
+potpack.module.js
+rhino3dm
+stats.module.js
+surfaceNet.js
+tween.module.js
+utif.module.js
+zstddec.module.js
+
+./node_modules/three/examples/jsm/libs/basis:
+README.md
+basis_transcoder.js
+basis_transcoder.wasm
+
+./node_modules/three/examples/jsm/libs/draco:
+README.md
+draco_decoder.js
+draco_decoder.wasm
+draco_encoder.js
+draco_wasm_wrapper.js
+gltf
+
+./node_modules/three/examples/jsm/libs/draco/gltf:
+draco_decoder.js
+draco_decoder.wasm
+draco_encoder.js
+draco_wasm_wrapper.js
+
+./node_modules/three/examples/jsm/libs/rhino3dm:
+rhino3dm.js
+rhino3dm.module.js
+rhino3dm.wasm
+
+./node_modules/three/examples/jsm/lighting:
+TiledLighting.js
+
+./node_modules/three/examples/jsm/lights:
+LightProbeGenerator.js
+RectAreaLightTexturesLib.js
+RectAreaLightUniformsLib.js
+
+./node_modules/three/examples/jsm/lines:
+Line2.js
+LineGeometry.js
+LineMaterial.js
+LineSegments2.js
+LineSegmentsGeometry.js
+Wireframe.js
+WireframeGeometry2.js
+webgpu
+
+./node_modules/three/examples/jsm/lines/webgpu:
+Line2.js
+LineSegments2.js
+Wireframe.js
+
+./node_modules/three/examples/jsm/loaders:
+3DMLoader.js
+3MFLoader.js
+AMFLoader.js
+BVHLoader.js
+ColladaLoader.js
+DDSLoader.js
+DRACOLoader.js
+EXRLoader.js
+FBXLoader.js
+FontLoader.js
+GCodeLoader.js
+GLTFLoader.js
+HDRCubeTextureLoader.js
+IESLoader.js
+KMZLoader.js
+KTX2Loader.js
+KTXLoader.js
+LDrawLoader.js
+LUT3dlLoader.js
+LUTCubeLoader.js
+LUTImageLoader.js
+LWOLoader.js
+LottieLoader.js
+MD2Loader.js
+MDDLoader.js
+MTLLoader.js
+MaterialXLoader.js
+NRRDLoader.js
+OBJLoader.js
+PCDLoader.js
+PDBLoader.js
+PLYLoader.js
+PVRLoader.js
+RGBELoader.js
+RGBMLoader.js
+STLLoader.js
+SVGLoader.js
+TDSLoader.js
+TGALoader.js
+TIFFLoader.js
+TTFLoader.js
+USDZLoader.js
+UltraHDRLoader.js
+VOXLoader.js
+VRMLLoader.js
+VTKLoader.js
+XYZLoader.js
+lwo
+
+./node_modules/three/examples/jsm/loaders/lwo:
+IFFParser.js
+LWO2Parser.js
+LWO3Parser.js
+
+./node_modules/three/examples/jsm/materials:
+LDrawConditionalLineMaterial.js
+LDrawConditionalLineNodeMaterial.js
+MeshGouraudMaterial.js
+MeshPostProcessingMaterial.js
+
+./node_modules/three/examples/jsm/math:
+Capsule.js
+ColorConverter.js
+ColorSpaces.js
+ConvexHull.js
+ImprovedNoise.js
+Lut.js
+MeshSurfaceSampler.js
+OBB.js
+Octree.js
+SimplexNoise.js
+
+./node_modules/three/examples/jsm/misc:
+ConvexObjectBreaker.js
+GPUComputationRenderer.js
+Gyroscope.js
+MD2Character.js
+MD2CharacterComplex.js
+MorphAnimMesh.js
+MorphBlendMesh.js
+ProgressiveLightMap.js
+ProgressiveLightMapGPU.js
+RollerCoaster.js
+Timer.js
+TubePainter.js
+Volume.js
+VolumeSlice.js
+
+./node_modules/three/examples/jsm/modifiers:
+CurveModifier.js
+CurveModifierGPU.js
+EdgeSplitModifier.js
+SimplifyModifier.js
+TessellateModifier.js
+
+./node_modules/three/examples/jsm/objects:
+GroundedSkybox.js
+Lensflare.js
+LensflareMesh.js
+MarchingCubes.js
+Reflector.js
+ReflectorForSSRPass.js
+Refractor.js
+ShadowMesh.js
+Sky.js
+SkyMesh.js
+Water.js
+Water2.js
+Water2Mesh.js
+WaterMesh.js
+
+./node_modules/three/examples/jsm/offscreen:
+jank.js
+offscreen.js
+scene.js
+
+./node_modules/three/examples/jsm/physics:
+AmmoPhysics.js
+JoltPhysics.js
+RapierPhysics.js
+
+./node_modules/three/examples/jsm/postprocessing:
+AfterimagePass.js
+BloomPass.js
+BokehPass.js
+ClearPass.js
+CubeTexturePass.js
+DotScreenPass.js
+EffectComposer.js
+FilmPass.js
+GTAOPass.js
+GlitchPass.js
+HalftonePass.js
+LUTPass.js
+MaskPass.js
+OutlinePass.js
+OutputPass.js
+Pass.js
+RenderPass.js
+RenderPixelatedPass.js
+RenderTransitionPass.js
+SAOPass.js
+SMAAPass.js
+SSAARenderPass.js
+SSAOPass.js
+SSRPass.js
+SavePass.js
+ShaderPass.js
+TAARenderPass.js
+TexturePass.js
+UnrealBloomPass.js
+
+./node_modules/three/examples/jsm/renderers:
+CSS2DRenderer.js
+CSS3DRenderer.js
+Projector.js
+SVGRenderer.js
+
+./node_modules/three/examples/jsm/shaders:
+ACESFilmicToneMappingShader.js
+AfterimageShader.js
+BasicShader.js
+BleachBypassShader.js
+BlendShader.js
+BokehShader.js
+BokehShader2.js
+BrightnessContrastShader.js
+ColorCorrectionShader.js
+ColorifyShader.js
+ConvolutionShader.js
+CopyShader.js
+DOFMipMapShader.js
+DepthLimitedBlurShader.js
+DigitalGlitch.js
+DotScreenShader.js
+ExposureShader.js
+FXAAShader.js
+FilmShader.js
+FocusShader.js
+FreiChenShader.js
+GTAOShader.js
+GammaCorrectionShader.js
+GodRaysShader.js
+HalftoneShader.js
+HorizontalBlurShader.js
+HorizontalTiltShiftShader.js
+HueSaturationShader.js
+KaleidoShader.js
+LuminosityHighPassShader.js
+LuminosityShader.js
+MirrorShader.js
+NormalMapShader.js
+OutputShader.js
+PoissonDenoiseShader.js
+RGBShiftShader.js
+SAOShader.js
+SMAAShader.js
+SSAOShader.js
+SSRShader.js
+SepiaShader.js
+SobelOperatorShader.js
+SubsurfaceScatteringShader.js
+TechnicolorShader.js
+ToonShader.js
+TriangleBlurShader.js
+UnpackDepthRGBAShader.js
+VelocityShader.js
+VerticalBlurShader.js
+VerticalTiltShiftShader.js
+VignetteShader.js
+VolumeShader.js
+WaterRefractionShader.js
+
+./node_modules/three/examples/jsm/textures:
+FlakesTexture.js
+
+./node_modules/three/examples/jsm/transpiler:
+AST.js
+GLSLDecoder.js
+ShaderToyDecoder.js
+TSLEncoder.js
+Transpiler.js
+
+./node_modules/three/examples/jsm/tsl:
+display
+lighting
+
+./node_modules/three/examples/jsm/tsl/display:
+AfterImageNode.js
+AnaglyphPassNode.js
+AnamorphicNode.js
+BleachBypass.js
+BloomNode.js
+DenoiseNode.js
+DepthOfFieldNode.js
+DotScreenNode.js
+FXAANode.js
+FilmNode.js
+GTAONode.js
+GaussianBlurNode.js
+LensflareNode.js
+Lut3DNode.js
+MotionBlur.js
+OutlineNode.js
+ParallaxBarrierPassNode.js
+PixelationPassNode.js
+RGBShiftNode.js
+SMAANode.js
+SSAAPassNode.js
+SSRNode.js
+Sepia.js
+SobelOperatorNode.js
+StereoCompositePassNode.js
+StereoPassNode.js
+TRAAPassNode.js
+TransitionNode.js
+hashBlur.js
+
+./node_modules/three/examples/jsm/tsl/lighting:
+TiledLightsNode.js
+
+./node_modules/three/examples/jsm/utils:
+BufferGeometryUtils.js
+CameraUtils.js
+GeometryCompressionUtils.js
+GeometryUtils.js
+LDrawUtils.js
+SceneOptimizer.js
+SceneUtils.js
+ShadowMapViewer.js
+ShadowMapViewerGPU.js
+SkeletonUtils.js
+SortUtils.js
+UVsDebug.js
+WebGLTextureUtils.js
+WebGPUTextureUtils.js
+WorkerPool.js
+
+./node_modules/three/examples/jsm/webxr:
+ARButton.js
+OculusHandModel.js
+OculusHandPointerModel.js
+Text2D.js
+VRButton.js
+XRButton.js
+XRControllerModelFactory.js
+XREstimatedLight.js
+XRHandMeshModel.js
+XRHandModelFactory.js
+XRHandPrimitiveModel.js
+XRPlanes.js
+
+./node_modules/three/src:
+Three.Core.js
+Three.Legacy.js
+Three.TSL.js
+Three.WebGPU.Nodes.js
+Three.WebGPU.js
+Three.js
+animation
+audio
+cameras
+constants.js
+core
+extras
+geometries
+helpers
+lights
+loaders
+materials
+math
+nodes
+objects
+renderers
+scenes
+textures
+utils.js
+
+./node_modules/three/src/animation:
+AnimationAction.js
+AnimationClip.js
+AnimationMixer.js
+AnimationObjectGroup.js
+AnimationUtils.js
+KeyframeTrack.js
+PropertyBinding.js
+PropertyMixer.js
+tracks
+
+./node_modules/three/src/animation/tracks:
+BooleanKeyframeTrack.js
+ColorKeyframeTrack.js
+NumberKeyframeTrack.js
+QuaternionKeyframeTrack.js
+StringKeyframeTrack.js
+VectorKeyframeTrack.js
+
+./node_modules/three/src/audio:
+Audio.js
+AudioAnalyser.js
+AudioContext.js
+AudioListener.js
+PositionalAudio.js
+
+./node_modules/three/src/cameras:
+ArrayCamera.js
+Camera.js
+CubeCamera.js
+OrthographicCamera.js
+PerspectiveCamera.js
+StereoCamera.js
+
+./node_modules/three/src/core:
+BufferAttribute.js
+BufferGeometry.js
+Clock.js
+EventDispatcher.js
+GLBufferAttribute.js
+InstancedBufferAttribute.js
+InstancedBufferGeometry.js
+InstancedInterleavedBuffer.js
+InterleavedBuffer.js
+InterleavedBufferAttribute.js
+Layers.js
+Object3D.js
+Raycaster.js
+RenderTarget.js
+RenderTarget3D.js
+RenderTargetArray.js
+Uniform.js
+UniformsGroup.js
+
+./node_modules/three/src/extras:
+Controls.js
+DataUtils.js
+Earcut.js
+ImageUtils.js
+PMREMGenerator.js
+ShapeUtils.js
+TextureUtils.js
+core
+curves
+
+./node_modules/three/src/extras/core:
+Curve.js
+CurvePath.js
+Interpolations.js
+Path.js
+Shape.js
+ShapePath.js
+
+./node_modules/three/src/extras/curves:
+ArcCurve.js
+CatmullRomCurve3.js
+CubicBezierCurve.js
+CubicBezierCurve3.js
+Curves.js
+EllipseCurve.js
+LineCurve.js
+LineCurve3.js
+QuadraticBezierCurve.js
+QuadraticBezierCurve3.js
+SplineCurve.js
+
+./node_modules/three/src/geometries:
+BoxGeometry.js
+CapsuleGeometry.js
+CircleGeometry.js
+ConeGeometry.js
+CylinderGeometry.js
+DodecahedronGeometry.js
+EdgesGeometry.js
+ExtrudeGeometry.js
+Geometries.js
+IcosahedronGeometry.js
+LatheGeometry.js
+OctahedronGeometry.js
+PlaneGeometry.js
+PolyhedronGeometry.js
+RingGeometry.js
+ShapeGeometry.js
+SphereGeometry.js
+TetrahedronGeometry.js
+TorusGeometry.js
+TorusKnotGeometry.js
+TubeGeometry.js
+WireframeGeometry.js
+
+./node_modules/three/src/helpers:
+ArrowHelper.js
+AxesHelper.js
+Box3Helper.js
+BoxHelper.js
+CameraHelper.js
+DirectionalLightHelper.js
+GridHelper.js
+HemisphereLightHelper.js
+PlaneHelper.js
+PointLightHelper.js
+PolarGridHelper.js
+SkeletonHelper.js
+SpotLightHelper.js
+
+./node_modules/three/src/lights:
+AmbientLight.js
+DirectionalLight.js
+DirectionalLightShadow.js
+HemisphereLight.js
+Light.js
+LightProbe.js
+LightShadow.js
+PointLight.js
+PointLightShadow.js
+RectAreaLight.js
+SpotLight.js
+SpotLightShadow.js
+webgpu
+
+./node_modules/three/src/lights/webgpu:
+IESSpotLight.js
+
+./node_modules/three/src/loaders:
+AnimationLoader.js
+AudioLoader.js
+BufferGeometryLoader.js
+Cache.js
+CompressedTextureLoader.js
+CubeTextureLoader.js
+DataTextureLoader.js
+FileLoader.js
+ImageBitmapLoader.js
+ImageLoader.js
+Loader.js
+LoaderUtils.js
+LoadingManager.js
+MaterialLoader.js
+ObjectLoader.js
+TextureLoader.js
+nodes
+
+./node_modules/three/src/loaders/nodes:
+NodeLoader.js
+NodeMaterialLoader.js
+NodeObjectLoader.js
+
+./node_modules/three/src/materials:
+LineBasicMaterial.js
+LineDashedMaterial.js
+Material.js
+Materials.js
+MeshBasicMaterial.js
+MeshDepthMaterial.js
+MeshDistanceMaterial.js
+MeshLambertMaterial.js
+MeshMatcapMaterial.js
+MeshNormalMaterial.js
+MeshPhongMaterial.js
+MeshPhysicalMaterial.js
+MeshStandardMaterial.js
+MeshToonMaterial.js
+PointsMaterial.js
+RawShaderMaterial.js
+ShaderMaterial.js
+ShadowMaterial.js
+SpriteMaterial.js
+nodes
+
+./node_modules/three/src/materials/nodes:
+Line2NodeMaterial.js
+LineBasicNodeMaterial.js
+LineDashedNodeMaterial.js
+MeshBasicNodeMaterial.js
+MeshLambertNodeMaterial.js
+MeshMatcapNodeMaterial.js
+MeshNormalNodeMaterial.js
+MeshPhongNodeMaterial.js
+MeshPhysicalNodeMaterial.js
+MeshSSSNodeMaterial.js
+MeshStandardNodeMaterial.js
+MeshToonNodeMaterial.js
+NodeMaterial.js
+NodeMaterials.js
+PointsNodeMaterial.js
+ShadowNodeMaterial.js
+SpriteNodeMaterial.js
+VolumeNodeMaterial.js
+manager
+
+./node_modules/three/src/materials/nodes/manager:
+NodeMaterialObserver.js
+
+./node_modules/three/src/math:
+Box2.js
+Box3.js
+Color.js
+ColorManagement.js
+Cylindrical.js
+Euler.js
+Frustum.js
+Interpolant.js
+Line3.js
+MathUtils.js
+Matrix2.js
+Matrix3.js
+Matrix4.js
+Plane.js
+Quaternion.js
+Ray.js
+Sphere.js
+Spherical.js
+SphericalHarmonics3.js
+Triangle.js
+Vector2.js
+Vector3.js
+Vector4.js
+interpolants
+
+./node_modules/three/src/math/interpolants:
+CubicInterpolant.js
+DiscreteInterpolant.js
+LinearInterpolant.js
+QuaternionLinearInterpolant.js
+
+./node_modules/three/src/nodes:
+Nodes.js
+TSL.js
+accessors
+code
+core
+display
+fog
+functions
+geometry
+gpgpu
+lighting
+materialx
+math
+parsers
+pmrem
+procedural
+shapes
+tsl
+utils
+
+./node_modules/three/src/nodes/accessors:
+AccessorsUtils.js
+Arrays.js
+BatchNode.js
+Bitangent.js
+BufferAttributeNode.js
+BufferNode.js
+BuiltinNode.js
+Camera.js
+ClippingNode.js
+CubeTextureNode.js
+InstanceNode.js
+InstancedMeshNode.js
+Lights.js
+MaterialNode.js
+MaterialProperties.js
+MaterialReferenceNode.js
+ModelNode.js
+ModelViewProjectionNode.js
+MorphNode.js
+Normal.js
+Object3DNode.js
+PointUVNode.js
+Position.js
+ReferenceBaseNode.js
+ReferenceNode.js
+ReflectVector.js
+RendererReferenceNode.js
+SceneNode.js
+SkinningNode.js
+StorageBufferNode.js
+StorageTextureNode.js
+Tangent.js
+Texture3DNode.js
+TextureBicubic.js
+TextureNode.js
+TextureSizeNode.js
+UV.js
+UniformArrayNode.js
+UserDataNode.js
+VelocityNode.js
+VertexColorNode.js
+
+./node_modules/three/src/nodes/code:
+CodeNode.js
+ExpressionNode.js
+FunctionCallNode.js
+FunctionNode.js
+ScriptableNode.js
+ScriptableValueNode.js
+
+./node_modules/three/src/nodes/core:
+ArrayNode.js
+AssignNode.js
+AttributeNode.js
+BypassNode.js
+CacheNode.js
+ConstNode.js
+ContextNode.js
+IndexNode.js
+InputNode.js
+LightingModel.js
+MRTNode.js
+Node.js
+NodeAttribute.js
+NodeBuilder.js
+NodeCache.js
+NodeCode.js
+NodeFrame.js
+NodeFunction.js
+NodeFunctionInput.js
+NodeParser.js
+NodeUniform.js
+NodeUtils.js
+NodeVar.js
+NodeVarying.js
+OutputStructNode.js
+ParameterNode.js
+PropertyNode.js
+StackNode.js
+StructNode.js
+StructType.js
+StructTypeNode.js
+TempNode.js
+UniformGroupNode.js
+UniformNode.js
+VarNode.js
+VaryingNode.js
+constants.js
+
+./node_modules/three/src/nodes/display:
+BlendModes.js
+BumpMapNode.js
+ColorAdjustment.js
+ColorSpaceFunctions.js
+ColorSpaceNode.js
+FrontFacingNode.js
+NormalMapNode.js
+PassNode.js
+PosterizeNode.js
+RenderOutputNode.js
+ScreenNode.js
+ToneMappingFunctions.js
+ToneMappingNode.js
+ToonOutlinePassNode.js
+ViewportDepthNode.js
+ViewportDepthTextureNode.js
+ViewportSharedTextureNode.js
+ViewportTextureNode.js
+
+./node_modules/three/src/nodes/fog:
+Fog.js
+
+./node_modules/three/src/nodes/functions:
+BSDF
+BasicLightingModel.js
+PhongLightingModel.js
+PhysicalLightingModel.js
+ShadowMaskModel.js
+ToonLightingModel.js
+material
+
+./node_modules/three/src/nodes/functions/BSDF:
+BRDF_GGX.js
+BRDF_Lambert.js
+BRDF_Sheen.js
+DFGApprox.js
+D_GGX.js
+D_GGX_Anisotropic.js
+EnvironmentBRDF.js
+F_Schlick.js
+LTC.js
+Schlick_to_F0.js
+V_GGX_SmithCorrelated.js
+V_GGX_SmithCorrelated_Anisotropic.js
+
+./node_modules/three/src/nodes/functions/material:
+getAlphaHashThreshold.js
+getGeometryRoughness.js
+getParallaxCorrectNormal.js
+getRoughness.js
+getShIrradianceAt.js
+
+./node_modules/three/src/nodes/geometry:
+RangeNode.js
+
+./node_modules/three/src/nodes/gpgpu:
+AtomicFunctionNode.js
+BarrierNode.js
+ComputeBuiltinNode.js
+ComputeNode.js
+WorkgroupInfoNode.js
+
+./node_modules/three/src/nodes/lighting:
+AONode.js
+AmbientLightNode.js
+AnalyticLightNode.js
+BasicEnvironmentNode.js
+BasicLightMapNode.js
+DirectionalLightNode.js
+EnvironmentNode.js
+HemisphereLightNode.js
+IESSpotLightNode.js
+IrradianceNode.js
+LightProbeNode.js
+LightUtils.js
+LightingContextNode.js
+LightingNode.js
+LightsNode.js
+PointLightNode.js
+PointShadowNode.js
+RectAreaLightNode.js
+ShadowBaseNode.js
+ShadowNode.js
+SpotLightNode.js
+
+./node_modules/three/src/nodes/materialx:
+DISCLAIMER.md
+MaterialXNodes.js
+lib
+
+./node_modules/three/src/nodes/materialx/lib:
+mx_hsv.js
+mx_noise.js
+mx_transform_color.js
+
+./node_modules/three/src/nodes/math:
+ConditionalNode.js
+Hash.js
+MathNode.js
+MathUtils.js
+OperatorNode.js
+TriNoise3D.js
+
+./node_modules/three/src/nodes/parsers:
+GLSLNodeFunction.js
+GLSLNodeParser.js
+
+./node_modules/three/src/nodes/pmrem:
+PMREMNode.js
+PMREMUtils.js
+
+./node_modules/three/src/nodes/procedural:
+Checker.js
+
+./node_modules/three/src/nodes/shapes:
+Shapes.js
+
+./node_modules/three/src/nodes/tsl:
+TSLBase.js
+TSLCore.js
+
+./node_modules/three/src/nodes/utils:
+ArrayElementNode.js
+ConvertNode.js
+CubeMapNode.js
+Discard.js
+EquirectUVNode.js
+FlipNode.js
+FunctionOverloadingNode.js
+JoinNode.js
+LoopNode.js
+MatcapUVNode.js
+MaxMipLevelNode.js
+MemberNode.js
+Oscillators.js
+Packing.js
+PostProcessingUtils.js
+RTTNode.js
+ReflectorNode.js
+RemapNode.js
+RotateNode.js
+SetNode.js
+SplitNode.js
+SpriteSheetUVNode.js
+SpriteUtils.js
+StorageArrayElementNode.js
+Timer.js
+TriplanarTexturesNode.js
+UVUtils.js
+ViewportUtils.js
+
+./node_modules/three/src/objects:
+BatchedMesh.js
+Bone.js
+ClippingGroup.js
+Group.js
+InstancedMesh.js
+LOD.js
+Line.js
+LineLoop.js
+LineSegments.js
+Mesh.js
+Points.js
+Skeleton.js
+SkinnedMesh.js
+Sprite.js
+
+./node_modules/three/src/renderers:
+WebGL3DRenderTarget.js
+WebGLArrayRenderTarget.js
+WebGLCubeRenderTarget.js
+WebGLRenderTarget.js
+WebGLRenderer.js
+common
+shaders
+webgl
+webgl-fallback
+webgpu
+webxr
+
+./node_modules/three/src/renderers/common:
+Animation.js
+Attributes.js
+Backend.js
+Background.js
+BindGroup.js
+Binding.js
+Bindings.js
+Buffer.js
+BufferUtils.js
+BundleGroup.js
+ChainMap.js
+ClippingContext.js
+Color4.js
+ComputePipeline.js
+Constants.js
+CubeRenderTarget.js
+DataMap.js
+Geometries.js
+IndirectStorageBufferAttribute.js
+Info.js
+Lighting.js
+Pipeline.js
+Pipelines.js
+PostProcessing.js
+ProgrammableStage.js
+QuadMesh.js
+RenderBundle.js
+RenderBundles.js
+RenderContext.js
+RenderContexts.js
+RenderList.js
+RenderLists.js
+RenderObject.js
+RenderObjects.js
+RenderPipeline.js
+Renderer.js
+RendererUtils.js
+SampledTexture.js
+Sampler.js
+StorageBuffer.js
+StorageBufferAttribute.js
+StorageInstancedBufferAttribute.js
+StorageTexture.js
+Textures.js
+TimestampQueryPool.js
+Uniform.js
+UniformBuffer.js
+UniformsGroup.js
+XRManager.js
+XRRenderTarget.js
+extras
+nodes
+
+./node_modules/three/src/renderers/common/extras:
+PMREMGenerator.js
+
+./node_modules/three/src/renderers/common/nodes:
+NodeBuilderState.js
+NodeLibrary.js
+NodeSampledTexture.js
+NodeSampler.js
+NodeStorageBuffer.js
+NodeUniform.js
+NodeUniformBuffer.js
+NodeUniformsGroup.js
+Nodes.js
+
+./node_modules/three/src/renderers/shaders:
+ShaderChunk
+ShaderChunk.js
+ShaderLib
+ShaderLib.js
+UniformsLib.js
+UniformsUtils.js
+
+./node_modules/three/src/renderers/shaders/ShaderChunk:
+alphahash_fragment.glsl.js
+alphahash_pars_fragment.glsl.js
+alphamap_fragment.glsl.js
+alphamap_pars_fragment.glsl.js
+alphatest_fragment.glsl.js
+alphatest_pars_fragment.glsl.js
+aomap_fragment.glsl.js
+aomap_pars_fragment.glsl.js
+batching_pars_vertex.glsl.js
+batching_vertex.glsl.js
+begin_vertex.glsl.js
+beginnormal_vertex.glsl.js
+bsdfs.glsl.js
+bumpmap_pars_fragment.glsl.js
+clearcoat_normal_fragment_begin.glsl.js
+clearcoat_normal_fragment_maps.glsl.js
+clearcoat_pars_fragment.glsl.js
+clipping_planes_fragment.glsl.js
+clipping_planes_pars_fragment.glsl.js
+clipping_planes_pars_vertex.glsl.js
+clipping_planes_vertex.glsl.js
+color_fragment.glsl.js
+color_pars_fragment.glsl.js
+color_pars_vertex.glsl.js
+color_vertex.glsl.js
+colorspace_fragment.glsl.js
+colorspace_pars_fragment.glsl.js
+common.glsl.js
+cube_uv_reflection_fragment.glsl.js
+default_fragment.glsl.js
+default_vertex.glsl.js
+defaultnormal_vertex.glsl.js
+displacementmap_pars_vertex.glsl.js
+displacementmap_vertex.glsl.js
+dithering_fragment.glsl.js
+dithering_pars_fragment.glsl.js
+emissivemap_fragment.glsl.js
+emissivemap_pars_fragment.glsl.js
+envmap_common_pars_fragment.glsl.js
+envmap_fragment.glsl.js
+envmap_pars_fragment.glsl.js
+envmap_pars_vertex.glsl.js
+envmap_physical_pars_fragment.glsl.js
+envmap_vertex.glsl.js
+fog_fragment.glsl.js
+fog_pars_fragment.glsl.js
+fog_pars_vertex.glsl.js
+fog_vertex.glsl.js
+gradientmap_pars_fragment.glsl.js
+iridescence_fragment.glsl.js
+iridescence_pars_fragment.glsl.js
+lightmap_pars_fragment.glsl.js
+lights_fragment_begin.glsl.js
+lights_fragment_end.glsl.js
+lights_fragment_maps.glsl.js
+lights_lambert_fragment.glsl.js
+lights_lambert_pars_fragment.glsl.js
+lights_pars_begin.glsl.js
+lights_phong_fragment.glsl.js
+lights_phong_pars_fragment.glsl.js
+lights_physical_fragment.glsl.js
+lights_physical_pars_fragment.glsl.js
+lights_toon_fragment.glsl.js
+lights_toon_pars_fragment.glsl.js
+logdepthbuf_fragment.glsl.js
+logdepthbuf_pars_fragment.glsl.js
+logdepthbuf_pars_vertex.glsl.js
+logdepthbuf_vertex.glsl.js
+map_fragment.glsl.js
+map_pars_fragment.glsl.js
+map_particle_fragment.glsl.js
+map_particle_pars_fragment.glsl.js
+metalnessmap_fragment.glsl.js
+metalnessmap_pars_fragment.glsl.js
+morphcolor_vertex.glsl.js
+morphinstance_vertex.glsl.js
+morphnormal_vertex.glsl.js
+morphtarget_pars_vertex.glsl.js
+morphtarget_vertex.glsl.js
+normal_fragment_begin.glsl.js
+normal_fragment_maps.glsl.js
+normal_pars_fragment.glsl.js
+normal_pars_vertex.glsl.js
+normal_vertex.glsl.js
+normalmap_pars_fragment.glsl.js
+opaque_fragment.glsl.js
+packing.glsl.js
+premultiplied_alpha_fragment.glsl.js
+project_vertex.glsl.js
+roughnessmap_fragment.glsl.js
+roughnessmap_pars_fragment.glsl.js
+shadowmap_pars_fragment.glsl.js
+shadowmap_pars_vertex.glsl.js
+shadowmap_vertex.glsl.js
+shadowmask_pars_fragment.glsl.js
+skinbase_vertex.glsl.js
+skinning_pars_vertex.glsl.js
+skinning_vertex.glsl.js
+skinnormal_vertex.glsl.js
+specularmap_fragment.glsl.js
+specularmap_pars_fragment.glsl.js
+tonemapping_fragment.glsl.js
+tonemapping_pars_fragment.glsl.js
+transmission_fragment.glsl.js
+transmission_pars_fragment.glsl.js
+uv_pars_fragment.glsl.js
+uv_pars_vertex.glsl.js
+uv_vertex.glsl.js
+worldpos_vertex.glsl.js
+
+./node_modules/three/src/renderers/shaders/ShaderLib:
+background.glsl.js
+backgroundCube.glsl.js
+cube.glsl.js
+depth.glsl.js
+distanceRGBA.glsl.js
+equirect.glsl.js
+linedashed.glsl.js
+meshbasic.glsl.js
+meshlambert.glsl.js
+meshmatcap.glsl.js
+meshnormal.glsl.js
+meshphong.glsl.js
+meshphysical.glsl.js
+meshtoon.glsl.js
+points.glsl.js
+shadow.glsl.js
+sprite.glsl.js
+vsm.glsl.js
+
+./node_modules/three/src/renderers/webgl:
+WebGLAnimation.js
+WebGLAttributes.js
+WebGLBackground.js
+WebGLBindingStates.js
+WebGLBufferRenderer.js
+WebGLCapabilities.js
+WebGLClipping.js
+WebGLCubeMaps.js
+WebGLCubeUVMaps.js
+WebGLExtensions.js
+WebGLGeometries.js
+WebGLIndexedBufferRenderer.js
+WebGLInfo.js
+WebGLLights.js
+WebGLMaterials.js
+WebGLMorphtargets.js
+WebGLObjects.js
+WebGLProgram.js
+WebGLPrograms.js
+WebGLProperties.js
+WebGLRenderLists.js
+WebGLRenderStates.js
+WebGLShader.js
+WebGLShaderCache.js
+WebGLShadowMap.js
+WebGLState.js
+WebGLTextures.js
+WebGLUniforms.js
+WebGLUniformsGroups.js
+WebGLUtils.js
+
+./node_modules/three/src/renderers/webgl-fallback:
+WebGLBackend.js
+WebGLBufferRenderer.js
+nodes
+utils
+
+./node_modules/three/src/renderers/webgl-fallback/nodes:
+GLSLNodeBuilder.js
+
+./node_modules/three/src/renderers/webgl-fallback/utils:
+WebGLAttributeUtils.js
+WebGLCapabilities.js
+WebGLConstants.js
+WebGLExtensions.js
+WebGLState.js
+WebGLTextureUtils.js
+WebGLTimestampQueryPool.js
+WebGLUtils.js
+
+./node_modules/three/src/renderers/webgpu:
+WebGPUBackend.js
+WebGPURenderer.Nodes.js
+WebGPURenderer.js
+nodes
+utils
+
+./node_modules/three/src/renderers/webgpu/nodes:
+BasicNodeLibrary.js
+StandardNodeLibrary.js
+WGSLNodeBuilder.js
+WGSLNodeFunction.js
+WGSLNodeParser.js
+
+./node_modules/three/src/renderers/webgpu/utils:
+WebGPUAttributeUtils.js
+WebGPUBindingUtils.js
+WebGPUConstants.js
+WebGPUPipelineUtils.js
+WebGPUTexturePassUtils.js
+WebGPUTextureUtils.js
+WebGPUTimestampQueryPool.js
+WebGPUUtils.js
+
+./node_modules/three/src/renderers/webxr:
+WebXRController.js
+WebXRDepthSensing.js
+WebXRManager.js
+
+./node_modules/three/src/scenes:
+Fog.js
+FogExp2.js
+Scene.js
+
+./node_modules/three/src/textures:
+CanvasTexture.js
+CompressedArrayTexture.js
+CompressedCubeTexture.js
+CompressedTexture.js
+CubeTexture.js
+Data3DTexture.js
+DataArrayTexture.js
+DataTexture.js
+DepthTexture.js
+FramebufferTexture.js
+Source.js
+Texture.js
+VideoFrameTexture.js
+VideoTexture.js
+
 ./node_modules/toidentifier:
 HISTORY.md
 LICENSE
@@ -894,6 +2298,7 @@ package.json
 
 ./scripts:
 components
+main.js
 pages
 router.js
 style
@@ -916,6 +2321,7 @@ signup.js
 ./scripts/pages/game:
 gameOption.js
 gamePlay.js
+pingpong.js
 tournamant.js
 
 ./scripts/pages/profile:
@@ -957,10 +2363,9 @@ Ryan.png
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
 
   <!-- CSS 파일 연결 -->
-  <link rel="stylesheet" href="./scripts/style/main.css">
-  <link rel="stylesheet" href="./scripts/style/navbar.css">
-  <link rel="stylesheet" href="./scripts/style/profile.css">
-
+  <link rel="stylesheet" href="/style/main.css">
+  <link rel="stylesheet" href="/style/navbar.css">
+  <link rel="stylesheet" href="/style/profile.css">
 </head>
 <body>
   <!-- 네비게이션 바 -->
@@ -969,21 +2374,16 @@ Ryan.png
   <!-- 각 페이지 내용이 렌더링될 영역 -->
   <div id="app"></div>
 
-  <script src="./scripts/components/navbar.js"></script>
-  <script src="./scripts/pages/game/gameOption.js"></script>
-  <script src="./scripts/pages/profile/profile.js"></script>
-  <script src="./scripts/components/matchHistory.js"></script>
-  <script src="./scripts/components/friends.js"></script>
-  <script src="./scripts/components/setting.js"></script>
+  <!-- ✅ ES6 모듈 적용 -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script type="module" src="/scripts/main.js"></script>
 
-  <script src="./scripts/router.js"></script>
 
   <!-- Bootstrap JS -->
   <script
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
     crossorigin="anonymous"
   ></script>
-
 </body>
 </html>
 
@@ -998,22 +2398,28 @@ const path = require('path');
 const app = express();
 const PORT = 3000;
 
-// 정적 파일 제공 설정 및 디버깅 코드
-app.use(express.static(path.join(__dirname), {
+// ✅ 정적 파일 제공 경로 설정 (MIME 타입 명시적 설정)
+app.use('/scripts', express.static(path.join(__dirname, 'scripts'), {
   setHeaders: (res, filePath) => {
-    console.log(`Serving File: ${filePath}`); // 요청된 파일 경로 출력
-
     if (filePath.endsWith('.js')) {
-      console.log(`Setting Content-Type: application/javascript`); // MIME 타입 확인
       res.setHeader('Content-Type', 'application/javascript');
     }
   }
 }));
 
-// 모든 요청 로깅
-app.use((req, res, next) => {
-  console.log(`Request URL: ${req.url}`); // 요청된 URL 로그
-  next();
+app.use('/style', express.static(path.join(__dirname, 'scripts/style'), {
+  setHeaders: (res, filePath) => {
+    if (filePath.endsWith('.css')) {
+      res.setHeader('Content-Type', 'text/css');
+    }
+  }
+}));
+
+app.use('/static', express.static(path.join(__dirname, 'static')));
+
+// ✅ SPA 라우팅 설정 (항상 마지막에 위치)
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, 'index.html'));
 });
 
 // 서버 시작
@@ -1021,6 +2427,32 @@ app.listen(PORT, () => {
   console.log(`Server is running at http://localhost:${PORT}`);
 });
 
+```
+
+```
+./q.md
+
+Q1. index.html 에서 `<script src="./scripts/components/Navbar.js" defer></script>` 스크립트를 defer로 로드하는 이유와 개념
+
+Q2. navbar.js에서
+``` javascript
+// public/scripts/components/Navbar.js
+(function() {
+  const navbar = document.getElementById('navbar');
+  navbar.innerHTML = `
+    <nav>
+      <div>
+        <div>
+          <img src="./static/logo.png" alt="Logo">
+          <a href="/profile" class="nav-link" data-link>Profile</a>
+          <a href="/gameplay" class="nav-link" data-link>GamePlay</a>
+        </div>
+      </div>
+    </nav>
+  `;
+})();
+``` 
+위 표현이 잘 이해가지 않음. 이름 없는 함수인 것인지? 이걸 export 안해도 되는 것인지?
 ```
 
 ```
@@ -1042,7 +2474,8 @@ node_modules
             "name": "router-example",
             "version": "1.0.0",
             "dependencies": {
-                "express": "^4.18.2"
+                "express": "^4.18.2",
+                "three": "^0.173.0"
             }
         },
         "node_modules/accepts": {
@@ -1813,6 +3246,12 @@ node_modules
                 "node": ">= 0.8"
             }
         },
+        "node_modules/three": {
+            "version": "0.173.0",
+            "resolved": "https://registry.npmjs.org/three/-/three-0.173.0.tgz",
+            "integrity": "sha512-AUwVmViIEUgBwxJJ7stnF0NkPpZxx1aZ6WiAbQ/Qq61h6I9UR4grXtZDmO8mnlaNORhHnIBlXJ1uBxILEKuVyw==",
+            "license": "MIT"
+        },
         "node_modules/toidentifier": {
             "version": "1.0.1",
             "resolved": "https://registry.npmjs.org/toidentifier/-/toidentifier-1.0.1.tgz",
@@ -1875,13 +3314,14 @@ node_modules
     "version": "1.0.0",
     "main": "server.js",
     "scripts": {
-      "start": "node server.js"
+        "start": "node server.js"
     },
     "dependencies": {
-      "express": "^4.18.2"
+        "express": "^4.18.2",
+        "three": "^0.173.0"
     }
-  }
-  
+}
+
 ```
 
 ```
@@ -2157,6 +3597,21 @@ input, select {
 ```
 
 ```
+./scripts/main.js
+
+import { renderNavbar } from "./components/navbar.js";
+import { router } from "./router.js";
+
+// 네비게이션 바 렌더링
+renderNavbar();
+
+// SPA 라우터 실행
+window.addEventListener("load", router);
+window.addEventListener("popstate", router);
+
+```
+
+```
 ./scripts/components/setting.js
 
 // setting.js
@@ -2204,40 +3659,21 @@ function renderSettings() {
 ```
 ./scripts/components/navbar.js
 
-const navbar = document.getElementById('navbar');
-
-navbar.innerHTML = `
-  <nav>
-    <div>
+// public/scripts/components/Navbar.js
+export function renderNavbar() {
+  const navbarEl = document.getElementById('navbar');
+  navbarEl.innerHTML = `
+    <nav>
       <div>
-        <img src="../static/logo.png" alt="Logo">
-        <a href="#profile" class="nav-link">Profile</a>
-        <a href="#gameplay" class="nav-link">GamePlay</a>
+        <div>
+          <img src="./static/logo.png" alt="Logo" style="height:16px;">
+          <a href="/profile" class="nav-link" data-link>Profile</a>
+          <a href="/gameplay" class="nav-link" data-link>GamePlay</a>
+        </div>
       </div>
-    </div>
-  </nav>
-`;
-
-function updateActiveLink() {
-  const currentHash = window.location.hash;
-  document.querySelectorAll('.nav-link').forEach(link => {
-    if (link.getAttribute('href') === currentHash) {
-      link.classList.add('active');
-    } else {
-      link.classList.remove('active');
-    }
-  });
+    </nav>
+  `;
 }
-
-updateActiveLink();
-window.addEventListener('hashchange', updateActiveLink);
-
-
-
-// const nextButton = document.getElementById('next-button');
-// nextButton.addEventListener('click', () => {
-//   window.location.hash = '#gameplay'; // 특정 해시로 이동
-// });
 
 ```
 
@@ -2496,52 +3932,57 @@ window.loadMatchHistory = loadMatchHistory;
 ```
 ./scripts/router.js
 
-const pages = {
-  login: () => `
-    <h1>Login Page</h1>
-    <p>Welcome to the login page.</p>
-  `,
+// public/scripts/router.js
+import { createProfilePage } from './pages/profile/profile.js';
+import { getGameOptionPage } from './pages/game/gameOption.js';
+import { getPingPongGamePage } from './pages/game/pingpong.js';
 
-  signup: () => `
-    <h1>Signup Page</h1>
-    <p>Sign up to create an account.</p>
-  `,
-
-  gameplay: window.getGameOptionPage, 
-
-  profile: () => {
-    return window.createProfilePage().outerHTML;
-  },
-
-  default: () => `
-    <h1>Welcome</h1>
-    <p>Select a page from the menu.</p>
-  `
+// 라우트 테이블
+const routes = {
+  '/': () => `<h1>Welcome</h1><p>Select a page from the menu.</p>`,
+  '/profile': () => createProfilePage().outerHTML,
+  '/gameplay': () => getGameOptionPage(),
+  '/pingpong': () => getPingPongGamePage(),
 };
 
-function router() {
-  const path = window.location.pathname.replace(/^\//, '') || 'default';
+// 라우터 함수
+export function router() {
+  const path = window.location.pathname;
   const app = document.getElementById('app');
-  const renderPage = pages[path] || pages.default;
 
-  const pageContent = renderPage();
-  if (typeof pageContent === 'string') {
-    app.innerHTML = pageContent;
+  // 매칭 안 되면 홈('/')으로
+  const pageFn = routes[path] || routes['/'];
+  const pageOutput = typeof pageFn === 'function' ? pageFn() : pageFn;
+
+  if (typeof pageOutput === 'string') {
+    app.innerHTML = pageOutput;
   } else {
-    app.replaceChildren(pageContent);
+    app.replaceChildren(pageOutput);
   }
 }
 
-function navigateTo(path) {
-  history.pushState({}, "", `/${path}`);
+// 페이지 이동
+export function navigateTo(url) {
+  history.pushState({}, "", url);
   router();
 }
 
-// 첫 로딩 시 실행
-window.addEventListener('load', router);
+// 라우터 초기화
+export function initRouter() {
+  // 1) popstate로 뒤로가기/앞으로가기 감지
+  window.addEventListener('popstate', router);
 
-// 뒤로가기/앞으로가기 이벤트 처리
-window.addEventListener('popstate', router);
+  // 2) a[data-link] 클릭 가로채기
+  document.addEventListener('click', e => {
+    const link = e.target.closest('a[data-link]');
+    if (!link) return;
+    e.preventDefault();
+    navigateTo(link.getAttribute('href'));
+  });
+
+  // 3) 페이지 최초 로드 시 라우터 실행
+  router();
+}
 
 ```
 
@@ -2549,6 +3990,269 @@ window.addEventListener('popstate', router);
 ./scripts/pages/game/tournamant.js
 
 
+```
+
+```
+./scripts/pages/game/pingpong.js
+
+const config = JSON.stringify({
+    winningScore: 7,          // 승리 점수 (생략해도 기본값 7)
+    ballSpeed: 0.3,           // 공속도 약간 빠르게
+    paddleSize: { width: 0.5, height: 5, depth: 1 },  // 패들 높이 증가
+    mapSkin: "#003366",       // 맵 배경색 (16진수 문자열도 사용 가능)
+    obstacleCount: 3          // 장애물 3개 생성
+});
+
+export function getPingPongGamePage(configJson) {
+    const container = document.createElement("div");
+    container.className = "game-container";
+    container.innerHTML = `
+        <style>
+            .game-container { 
+                margin-top: 60px;
+                width: 600px; 
+                height: 600px; 
+                position: relative;
+            }
+            #scoreBoard {
+                position: absolute;
+                top: 20px;
+                left: 50%;
+                transform: translateX(-50%);
+                color: #fff;
+                font-family: Arial, sans-serif;
+                font-size: 24px;
+                z-index: 10;
+            }
+            #gameContainer {
+                width: 600px; 
+                height: 600px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            canvas { display: block; }
+            /* 승리 메시지 스타일 */
+            #winnerMessage {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                color: yellow;
+                font-family: Arial, sans-serif;
+                font-size: 36px;
+                z-index: 20;
+                display: none;
+            }
+        </style>
+        <div id="scoreBoard">Player1: 0 | Player2: 0</div>
+        <div id="gameContainer"></div>
+        <div id="winnerMessage"></div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    `;
+
+    // DOM이 완전히 로드된 후에 게임 초기화 (옵션을 함께 전달)
+    setTimeout(() => {
+        initializePingPongGame(configJson);
+    }, 100);
+
+    return container;
+}
+
+function initializePingPongGame(configJson) {
+    // 기본 옵션 설정
+    const defaultConfig = {
+        winningScore: 7,              // 승리 점수 (7점 내기)
+        ballSpeed: 0.2,               // 공의 기본 속도
+        paddleSpeed: 0.5,             // 패들 이동 속도
+        paddleSize: { width: 0.5, height: 4, depth: 1 },  // 패들 크기
+        boundaryY: 10,                // 상하 경계
+        mapSkin: 0x001133,            // 맵 배경색 (16진수)
+        obstacleCount: 0              // 생성할 장애물 개수 (0이면 생성 안 함)
+    };
+
+    // 옵션 병합 (JSON 문자열일 수도 있으므로 파싱)
+    let config = { ...defaultConfig };
+    if (configJson) {
+        try {
+            const parsed = typeof configJson === 'string' ? JSON.parse(configJson) : configJson;
+            config = { ...config, ...parsed };
+        } catch (e) {
+            console.error("Invalid config JSON, using default config", e);
+        }
+    }
+
+    // Three.js 기본 설정
+    const container = document.getElementById('gameContainer');
+    const scene = new THREE.Scene();
+    scene.background = new THREE.Color(config.mapSkin);
+
+    const camera = new THREE.PerspectiveCamera(45, 1, 0.1, 1000);
+    camera.position.set(0, 0, 30);
+    camera.lookAt(0, 0, 0);
+
+    const renderer = new THREE.WebGLRenderer({ antialias: true });
+    renderer.setSize(600, 600, false);
+    container.appendChild(renderer.domElement);
+
+    // 재질 설정
+    const paddleMaterial = new THREE.MeshPhongMaterial({ color: 0xffffff });
+    const ballMaterial = new THREE.MeshPhongMaterial({ color: 0xffdd00 });
+    const obstacleMaterial = new THREE.MeshPhongMaterial({ color: 0xff0000 });
+
+    // 조명 추가
+    const ambientLight = new THREE.AmbientLight(0xaaaaaa);
+    scene.add(ambientLight);
+    const directionalLight = new THREE.DirectionalLight(0xffffff, 0.5);
+    directionalLight.position.set(0, 1, 1);
+    scene.add(directionalLight);
+
+    // 패들 생성 (옵션에 따른 크기 적용)
+    const leftPaddle = new THREE.Mesh(
+        new THREE.BoxGeometry(config.paddleSize.width, config.paddleSize.height, config.paddleSize.depth),
+        paddleMaterial
+    );
+    leftPaddle.position.set(-12, 0, 0);
+    scene.add(leftPaddle);
+
+    const rightPaddle = new THREE.Mesh(
+        new THREE.BoxGeometry(config.paddleSize.width, config.paddleSize.height, config.paddleSize.depth),
+        paddleMaterial
+    );
+    rightPaddle.position.set(12, 0, 0);
+    scene.add(rightPaddle);
+
+    // 공 생성 (기본 공속도 적용)
+    const ball = new THREE.Mesh(new THREE.SphereGeometry(0.5, 32, 32), ballMaterial);
+    ball.position.set(0, 0, 0);
+    scene.add(ball);
+    const ballVelocity = new THREE.Vector3(config.ballSpeed, config.ballSpeed, 0);
+
+    const keysPressed = {};
+    window.addEventListener('keydown', (e) => { keysPressed[e.key] = true; });
+    window.addEventListener('keyup', (e) => { keysPressed[e.key] = false; });
+
+    let gameScore = { player1: 0, player2: 0 };
+    let gameOver = false;
+    const obstacles = [];
+
+    // 장애물 생성 (옵션에 따른 갯수)
+    for (let i = 0; i < config.obstacleCount; i++) {
+        const obstacle = new THREE.Mesh(new THREE.BoxGeometry(1, 1, 1), obstacleMaterial);
+        // 패들과 너무 가까이 있지 않도록 적당한 위치에 랜덤 생성 (필요에 따라 위치 조정)
+        obstacle.position.set(
+            (Math.random() * 20) - 10, 
+            (Math.random() * (config.boundaryY * 2 - 2)) - (config.boundaryY - 1), 
+            0
+        );
+        scene.add(obstacle);
+        obstacles.push(obstacle);
+    }
+
+    // 게임 업데이트 함수
+    function update() {
+        if (gameOver) return;
+
+        // 패들 이동 (W,S: 왼쪽, I,K: 오른쪽)
+        if (keysPressed['w'] && leftPaddle.position.y < config.boundaryY - config.paddleSize.height / 2) {
+            leftPaddle.position.y += config.paddleSpeed;
+        }
+        if (keysPressed['s'] && leftPaddle.position.y > -config.boundaryY + config.paddleSize.height / 2) {
+            leftPaddle.position.y -= config.paddleSpeed;
+        }
+        if (keysPressed['i'] && rightPaddle.position.y < config.boundaryY - config.paddleSize.height / 2) {
+            rightPaddle.position.y += config.paddleSpeed;
+        }
+        if (keysPressed['k'] && rightPaddle.position.y > -config.boundaryY + config.paddleSize.height / 2) {
+            rightPaddle.position.y -= config.paddleSpeed;
+        }
+
+        // 공 이동
+        ball.position.add(ballVelocity);
+
+        // 상하 경계 충돌 처리
+        if (ball.position.y + 0.5 > config.boundaryY || ball.position.y - 0.5 < -config.boundaryY) {
+            ballVelocity.y = -ballVelocity.y;
+        }
+
+        // 좌우 경계 도달 시 점수 처리
+        if (ball.position.x - 0.5 < -13) {
+            // 오른쪽 플레이어 점수 획득
+            gameScore.player2 += 1;
+            if (gameScore.player2 >= config.winningScore) {
+                endGame("Player 2 Wins!");
+                return;
+            }
+            resetBall(1);
+        } else if (ball.position.x + 0.5 > 13) {
+            // 왼쪽 플레이어 점수 획득
+            gameScore.player1 += 1;
+            if (gameScore.player1 >= config.winningScore) {
+                endGame("Player 1 Wins!");
+                return;
+            }
+            resetBall(-1);
+        }
+
+        // 패들과 공의 충돌 처리 (단순 충돌 판정)
+        if (
+            ball.position.x - 0.5 < leftPaddle.position.x + config.paddleSize.width / 2 &&
+            Math.abs(ball.position.y - leftPaddle.position.y) < config.paddleSize.height / 2 + 0.5
+        ) {
+            ballVelocity.x = Math.abs(ballVelocity.x);
+        }
+        if (
+            ball.position.x + 0.5 > rightPaddle.position.x - config.paddleSize.width / 2 &&
+            Math.abs(ball.position.y - rightPaddle.position.y) < config.paddleSize.height / 2 + 0.5
+        ) {
+            ballVelocity.x = -Math.abs(ballVelocity.x);
+        }
+
+        // 장애물과의 충돌 처리 (간단한 박스 충돌 판정)
+        obstacles.forEach(obstacle => {
+            const ballBox = new THREE.Box3().setFromObject(ball);
+            const obstacleBox = new THREE.Box3().setFromObject(obstacle);
+            if (ballBox.intersectsBox(obstacleBox)) {
+                // 충돌 시 공의 속도 반전 (필요에 따라 좀 더 정교하게 처리 가능)
+                ballVelocity.x = -ballVelocity.x;
+                ballVelocity.y = -ballVelocity.y;
+            }
+        });
+
+        // 점수판 업데이트
+        document.getElementById('scoreBoard').innerText = `Player1: ${gameScore.player1} | Player2: ${gameScore.player2}`;
+    }
+
+    // 공 리셋 함수 (점수가 날 때마다 호출)
+    function resetBall(direction) {
+        ball.position.set(0, 0, 0);
+        ballVelocity.set(
+            config.ballSpeed * direction,
+            config.ballSpeed * (Math.random() * 0.5 - 0.25),
+            0
+        );
+    }
+
+    // 게임 종료 함수 (승리 메시지 표시)
+    function endGame(message) {
+        gameOver = true;
+        const winnerMessage = document.getElementById('winnerMessage');
+        winnerMessage.innerText = message;
+        winnerMessage.style.display = 'block';
+    }
+
+    // 애니메이션 루프
+    function animate() {
+        if (!gameOver) {
+            requestAnimationFrame(animate);
+        }
+        update();
+        renderer.render(scene, camera);
+    }
+    animate();
+}
+
+// document.body.appendChild(getPingPongGamePage(config));
 ```
 
 ```
@@ -2560,7 +4264,7 @@ window.addEventListener('popstate', router);
 ```
 ./scripts/pages/game/gameOption.js
 
-function getGameOptionPage() {
+export function getGameOptionPage() {
   return `
     <div class="container py-5">
       <!-- Header Section -->
@@ -2655,6 +4359,7 @@ function getGameOptionPage() {
 }
 
 window.getGameOptionPage = getGameOptionPage;
+
 ```
 
 ```
@@ -2689,7 +4394,7 @@ function initializeDropdowns() {
     });
 }
 
-function createProfilePage() {
+export function createProfilePage() {
     const container = document.createElement('div');
     container.className = 'container py-5';
 

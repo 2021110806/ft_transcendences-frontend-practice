@@ -1,4 +1,4 @@
-function getGameOptionPage() {
+export function getGameOptionPage() {
   return `
     <div class="container py-5">
       <!-- Header Section -->
